@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MP2338GTL-Z"
+   (description "Switching Voltage Regulators High-Efficiency,28V,3A,430kHz Synchronous Buck with PG and ext.SS In SOT583 Package")
+   (family "ANA")
+   (package "MP2338GTLZ")
+   (attribute "Datasheet Link" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2338GTL/document_id/9461/")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Mouser Part Number" "946-MP2338GTL-Z")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2338GTL-Z?qs=Li%252BoUPsLEnuizxbD7Jo%252B7w%3D%3D")
+   (attribute "Manufacturer_Name" "Monolithic Power Systems (MPS)")
+   (attribute "Manufacturer_Part_Number" "MP2338GTL-Z")
+   (gate
+    (symbol "MP2338GTL-Z")
+    (pin "PG" 1 PS)
+    (pin "VIN" 2 PS)
+    (pin "SW" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "BST" 5 PS)
+    (pin "EN" 6 PS)
+    (pin "SS" 7 PS)
+    (pin "FB" 8 PS)
+   )
+  )
+  (symbol "MP2338GTL-Z"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MP2338GTLZ"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.05 -0.6)
+      (pt 1.05 -0.6)
+      (pt 1.05 0.6)
+      (pt -1.05 0.6)
+      (pt -1.05 -0.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.05 2)
+      (pt 2.05 2)
+      (pt 2.05 -2)
+      (pt -2.05 -2)
+      (pt -2.05 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.75 -1.6)
+      (arc (pt -0.750 -1.600) (pt -0.800 -1.600) (pt -0.700 -1.500) (start 180.0) (sweep -90.0))
+      (pt -0.75 -1.5)
+      (arc (pt -0.750 -1.500) (pt -0.800 -1.600) (pt -0.700 -1.500) (start 180.0) (sweep 90.0))
+      (pt -0.75 -1.6))))
+   (leg 1 (pt -0.750 -0.700) (padstack 0))
+   (leg 2 (pt -0.250 -0.700) (padstack 0))
+   (leg 3 (pt 0.250 -0.700) (padstack 0))
+   (leg 4 (pt 0.750 -0.700) (padstack 0))
+   (leg 5 (pt 0.750 0.700) (padstack 0))
+   (leg 6 (pt 0.250 0.700) (padstack 0))
+   (leg 7 (pt -0.250 0.700) (padstack 0))
+   (leg 8 (pt -0.750 0.700) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.600 0 0 90.000))
+   )
+   (model "MP2338GTL-Z.stp"
+    (euler 0 0 90)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

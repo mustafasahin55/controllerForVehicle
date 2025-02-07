@@ -1,0 +1,257 @@
+(footprint "MP2338GTLZ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MP2338GTL-Z-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c96ef200-758c-4689-9bb8-8eef3ccd543f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MP2338GTLZ"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "32386081-2ed9-43da-b0c2-d655f5b82a88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ccd54ce-9976-4797-b5b0-cc351da5d2a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e76b17b-9b26-491a-8123-6b5792d31e03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96327816-4132-41cc-8c9b-bbe466097b44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.75 1.5)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "629b9a8f-f913-4928-9b6c-4906d51bfae5")
+	)
+	(fp_line
+		(start -0.75 1.6)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1ce146f-7417-476c-91fb-b7ccec148dea")
+	)
+	(fp_arc
+		(start -0.75 1.5)
+		(mid -0.7 1.55)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "694781f0-31fd-4610-9314-e82f2126a82f")
+	)
+	(fp_arc
+		(start -0.75 1.6)
+		(mid -0.8 1.55)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fa61570-e941-47fd-bf5b-2de3a84ae68c")
+	)
+	(fp_line
+		(start -2.05 -2)
+		(end 2.05 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "27bebacb-f8de-4747-b6f3-913b1c91361e")
+	)
+	(fp_line
+		(start -2.05 2)
+		(end -2.05 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "991c6267-23f8-4231-9bc3-31e0ab6d3913")
+	)
+	(fp_line
+		(start -1.05 -0.6)
+		(end -1.05 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0cffca5c-f05e-4664-9297-08a7edcbff15")
+	)
+	(fp_line
+		(start -1.05 0.6)
+		(end 1.05 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1be7ecfb-8082-4dfd-a3a3-444db4d0d130")
+	)
+	(fp_line
+		(start 1.05 -0.6)
+		(end -1.05 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a82b7227-9662-4076-a5f2-259a12de9376")
+	)
+	(fp_line
+		(start 1.05 0.6)
+		(end 1.05 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "24211193-b4ee-4dcb-b2e8-2b8d2302a255")
+	)
+	(fp_line
+		(start 2.05 -2)
+		(end 2.05 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8b864364-fcdf-4f5e-a5f8-34d45eeb28de")
+	)
+	(fp_line
+		(start 2.05 2)
+		(end -2.05 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "62411c91-6cc6-4276-bccc-7ac7b8a931c7")
+	)
+	(pad "1" smd rect
+		(at -0.75 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8d127f97-9574-4042-8b39-0d6139491cf8")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9946de6b-aef0-4118-b289-90edef8d962e")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fdbda6d2-7cc2-4e50-9990-91b49b996665")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c818ec71-d89a-4260-9879-e24500c81f43")
+	)
+	(pad "5" smd rect
+		(at 0.75 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9d96233e-b3df-40f1-8f9d-fc79e8f24ed8")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0d8dad4f-f01c-4868-8b9f-a4f5ea5da205")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "64bda26c-0e78-41f9-84f2-d32feec38637")
+	)
+	(pad "8" smd rect
+		(at -0.75 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3bb5298c-5674-47f2-89d0-74a6c7687465")
+	)
+	(model "${KIPRJMOD}/MP2338GTL-Z/3D/MP2338GTL-Z.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

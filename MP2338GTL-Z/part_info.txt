@@ -1,0 +1,9 @@
+Manufacturer=Monolithic Power Systems (MPS)
+PartNumber=MP2338GTL-Z
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2024-01-03 08:01:59
+Downloaded=2025-02-07 14:16:02
+3D=Y

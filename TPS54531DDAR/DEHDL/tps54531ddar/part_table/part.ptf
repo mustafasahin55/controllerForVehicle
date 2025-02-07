@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS54531DDAR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS54531DDAR" (!) = "", "SOIC127P600X170-9N", "Small Outline Packages", "595-TPS54531DDAR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54531DDAR?qs=jA5Ki6243onykODzUePbag%3D%3D", "3.5V to 28V Input, 5A, 570kHz Step-Down Converter with Eco-mode", "http://www.ti.com/lit/gpn/tps54531", "1.7 mm"
+END_PART
+
+END.

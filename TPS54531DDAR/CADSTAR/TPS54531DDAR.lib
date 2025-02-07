@@ -1,0 +1,16 @@
+.TPS54531DDAR :1 ;3.5V to 28V Input, 5A, 570kHz Step-Down Converter with Eco-mode
+SOIC127P600X170-9N
+*STM PS
+*NGS
+*PLB 1="BOOT" 2="VIN" 3="EN" 4="SS" 5="VSENSE" 6="COMP" 7="GND" 8="PH" 9="EP"
+*MXP 9
+*DFN TPS54531DDAR
+~!Mouser Part Number (595-TPS54531DDAR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54531DDAR?qs=jA5Ki6243onykODzUePbag%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS54531DDAR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps54531)
+~!Height (1.7mm)
+~!3D_Model (TPS54531DDAR)
+TPS54531DDAR
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

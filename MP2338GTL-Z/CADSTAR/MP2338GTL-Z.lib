@@ -1,0 +1,16 @@
+.MP2338GTL-Z :1 ;Switching Voltage Regulators High-Efficiency,28V,3A,430kHz Synchronous Buck with PG and ext.SS In SOT583 Package
+MP2338GTLZ
+*STM IC
+*NGS
+*PLB 1="PG" 2="VIN" 3="SW" 4="GND" 5="BST" 6="EN" 7="SS" 8="FB"
+*MXP 8
+*DFN MP2338GTL-Z
+~!Mouser Part Number (946-MP2338GTL-Z)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2338GTL-Z?qs=Li%252BoUPsLEnuizxbD7Jo%252B7w%3D%3D)
+~!Manufacturer_Name (Monolithic Power Systems (MPS))
+~!Manufacturer_Part_Number (MP2338GTL-Z)
+~!Link Datasheet (https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2338GTL/document_id/9461/)
+~!Height (0.6mm)
+~!3D_Model (MP2338GTL-Z)
+MP2338GTL-Z
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

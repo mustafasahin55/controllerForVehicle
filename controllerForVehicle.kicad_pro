@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -563,6 +563,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -577,7 +585,7 @@
   "sheets": [
     [
       "f177fb06-71dc-4865-9331-a828b12c2bf7",
-      "Root"
+      "Kök"
     ],
     [
       "3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6",
@@ -602,6 +610,14 @@
     [
       "2c10483a-1114-4200-aa47-c2b762da2921",
       "connectors"
+    ],
+    [
+      "3804d0ff-5708-40cf-ad06-da415e1ba4d8",
+      "servo_control"
+    ],
+    [
+      "5b9378f8-f7b1-4754-9b49-5b2cb88e490a",
+      "mpu"
     ]
   ],
   "text_variables": {}

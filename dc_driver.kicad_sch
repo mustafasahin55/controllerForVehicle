@@ -144,6 +144,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -301,7 +498,7 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener_Small"
+		(symbol "Device:D_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -309,19 +506,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.286 0)
+				(at -1.27 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "D_Zener_Small"
-				(at 0 -2.286 0)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -342,7 +541,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Zener diode, small symbol"
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -369,10 +586,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Zener_Small_0_1"
+			(symbol "D_Small_0_1"
 				(polyline
 					(pts
-						(xy 0.762 0) (xy -0.762 0)
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -384,19 +613,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -407,7 +624,7 @@
 					)
 				)
 			)
-			(symbol "D_Zener_Small_1_1"
+			(symbol "D_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -446,129 +663,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MX1508:MX1508"
+		(symbol "Driver_Motor:L298N"
 			(pin_names
 				(offset 1.016)
 			)
@@ -576,44 +671,35 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 15.24 0)
+				(at -10.16 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify right)
 				)
 			)
-			(property "Value" "MX1508"
-				(at -10.16 -15.24 0)
+			(property "Value" "L298N"
+				(at 12.7 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
-			(property "Footprint" "MX1508:SOIC127P600X177-16N"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical"
+				(at 1.27 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
+				(at 3.81 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -621,120 +707,37 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Sinotech Mixic Electronics Co., Ltd"
+			(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
+			(property "ki_keywords" "H-bridge motor driver"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "Package"
+			(property "ki_fp_filters" "TO?220*StaggerOdd*Vertical*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MX1508"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            \n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MX1508_1_0"
+			(symbol "L298N_0_1"
 				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -743,303 +746,274 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "L298N_1_1"
 				(pin power_in line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "VCC1"
+					(at -7.62 -17.78 90)
+					(length 2.54)
+					(name "SENSE_A"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "OUTB1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "AGND1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "PGND1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "OUTA1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
 					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "INA1"
+					(length 2.54)
+					(name "IN3"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "INB1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VDD1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MX1508_2_0"
-				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "AGND2"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "PGND2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "OUTA2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "VCC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "INA2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
 					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "INB2"
+					(length 2.54)
+					(name "EnB"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "11"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VDD2"
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "IN4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "12"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin output line
 					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "OUTB2"
+					(length 2.54)
+					(name "OUT3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "SENSE_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "EnA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1144,1096 +1118,1670 @@
 		)
 	)
 	(junction
-		(at 26.67 19.05)
+		(at 194.31 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10e073d7-2a26-45b8-a9c1-d346e59cfdbb")
+		(uuid "01350626-2df6-4e2b-b8df-53bffa51d176")
 	)
 	(junction
-		(at 153.67 34.29)
+		(at 83.82 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b3a9e1f-f96e-43ca-8044-e877f3b360f6")
+		(uuid "05717211-05be-42ac-b0c4-9657e8aff4ae")
 	)
 	(junction
-		(at 52.07 99.06)
+		(at 54.61 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "228b2171-9112-4f9a-929f-8cc37f8aacd9")
+		(uuid "057a1c0b-3c51-4102-bb2a-389d1284e1c5")
 	)
 	(junction
-		(at 34.29 99.06)
+		(at 50.8 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "248d327e-a1bc-4369-9a1e-ce5afc1610fd")
+		(uuid "0617da02-396a-4cee-9afd-4b0baa7b7f37")
 	)
 	(junction
-		(at 187.96 59.69)
+		(at 198.12 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2890a955-843f-4b17-aafe-97e32f323be7")
+		(uuid "098a65f0-fb23-464e-8921-63f75d2404a1")
 	)
 	(junction
-		(at 86.36 139.7)
+		(at 194.31 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "319e3656-7ad5-4b2c-85fe-5c3ebdf431d1")
+		(uuid "13cc9679-8738-4cec-bcc2-7de7cf4b80f0")
 	)
 	(junction
-		(at 44.45 19.05)
+		(at 165.1 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39b992a4-dda8-4316-a2f6-445382cf5796")
+		(uuid "17abc654-bafa-47d4-b57f-c7fda1095458")
 	)
 	(junction
-		(at 52.07 114.3)
+		(at 76.2 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fbfa904-e640-4b6d-b8e3-7eb415f18c1a")
+		(uuid "1aeffc44-f76c-4f33-910d-3660d2a8bf50")
 	)
 	(junction
-		(at 30.48 34.29)
+		(at 49.53 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ee4f545-214f-478a-b991-fc001bf34621")
+		(uuid "1b757f83-d8e9-43fd-9648-e29edb10e135")
 	)
 	(junction
-		(at 38.1 99.06)
+		(at 76.2 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "525c3d77-2650-436b-b517-4744b5139e4e")
+		(uuid "27257394-5774-4c80-9b78-030d5412f511")
 	)
 	(junction
-		(at 153.67 19.05)
+		(at 160.02 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c217468-7cf2-4be4-8690-bef77c6e05cb")
+		(uuid "2fa9510d-2340-44cd-b69d-2c89a2e6b728")
 	)
 	(junction
-		(at 57.15 19.05)
+		(at 72.39 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e226acd-331c-467a-bfb1-5f219b38ce13")
+		(uuid "305cfc69-2825-4987-b5cf-af77b19337d9")
 	)
 	(junction
-		(at 166.37 19.05)
+		(at 80.01 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f924a98-32c3-487f-966c-0bc6ffd665bf")
+		(uuid "45f12610-7c8a-443e-a82c-31f9f3eac4f2")
 	)
 	(junction
-		(at 44.45 34.29)
+		(at 80.01 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f090d26-f530-44c9-9036-fdaae35ec714")
+		(uuid "4ff0a3c1-8c70-4bdf-90f4-92e1896c1f83")
 	)
 	(junction
-		(at 86.36 166.37)
+		(at 198.12 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d8cd0bc-2512-41fc-8933-90ac84aab8ad")
+		(uuid "53b60216-e1c0-4afa-a9c0-fe1658d0b233")
 	)
 	(junction
-		(at 38.1 114.3)
+		(at 203.2 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aba79285-afd7-4fe0-9ff6-f5f47df131e6")
+		(uuid "5476b487-842d-4e3a-9ae9-fcb7612457a9")
 	)
 	(junction
-		(at 78.74 59.69)
+		(at 83.82 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac56370b-b8bc-4eb5-876a-ece68bcd36d1")
+		(uuid "5585071f-e23a-43b9-9e1c-aa3f44d6d5d4")
 	)
 	(junction
-		(at 139.7 34.29)
+		(at 87.63 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b03eb8f4-810b-4cf7-a363-9605fedf0912")
+		(uuid "569e6f00-c0b8-4a59-9b64-f9f1f5d16da5")
 	)
 	(junction
-		(at 78.74 86.36)
+		(at 190.5 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b33d1684-7c88-4a43-b088-8745d4b07e4a")
+		(uuid "5bbcd7b8-7eb6-4dd6-be57-2fc90f84d651")
 	)
 	(junction
-		(at 139.7 19.05)
+		(at 80.01 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8559ff4-54e6-4b56-9259-76d67c2eabba")
+		(uuid "6737c92f-5af6-4658-aa43-04efc7e4357f")
 	)
 	(junction
-		(at 135.89 19.05)
+		(at 186.69 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7748114-e919-4bc9-bf79-52c7acf5f352")
+		(uuid "73ac68c2-7aa8-4ca9-8f65-823d90cf2c35")
 	)
 	(junction
-		(at 187.96 86.36)
+		(at 83.82 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d62b7539-3ac9-43e0-9bc9-8229b8ce09d0")
+		(uuid "781a8476-106a-4508-9a6f-47480cc45dd2")
 	)
 	(junction
-		(at 30.48 19.05)
+		(at 87.63 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc471d3a-387f-4743-b185-8cb515e84062")
+		(uuid "785c8911-6c07-4fbe-a9aa-366bdddfd6f1")
+	)
+	(junction
+		(at 190.5 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7d6a42-3677-4501-97c0-85a3e2c41bcf")
+	)
+	(junction
+		(at 198.12 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92dd50b1-5e33-45ae-b00d-295de6313274")
+	)
+	(junction
+		(at 87.63 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a037b721-2d2b-48b2-97ea-0a1df1b2fecf")
+	)
+	(junction
+		(at 88.9 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a38485-6815-4e6c-b381-8921ce618c68")
+	)
+	(junction
+		(at 80.01 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe82f21-5d4e-4213-948c-540c4f114084")
+	)
+	(junction
+		(at 83.82 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1092642-f2fe-4ea8-8eb2-199aceb1dc63")
 	)
+	(junction
+		(at 80.01 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d0b0ab-dcc1-4e55-b783-50aaccc8e306")
+	)
+	(junction
+		(at 83.82 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b53f6218-3bfc-4854-a732-049c0c0d726e")
+	)
+	(junction
+		(at 76.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b850cbb8-0470-4e91-86e0-085e5f9808f0")
+	)
+	(junction
+		(at 194.31 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf6fd6d1-4ef3-4ca5-94cc-4aa61885fe18")
+	)
+	(junction
+		(at 45.72 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3216b69-e3c6-4f40-83fa-ff4d67e899fa")
+	)
+	(junction
+		(at 83.82 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d378605f-48dc-4dfa-848e-c04d0abec2dc")
+	)
+	(junction
+		(at 76.2 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b9b57e-01e1-4450-972d-7ecf3a92eede")
+	)
+	(junction
+		(at 190.5 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5d5d6f1-091e-48c7-a24b-b69e9d629290")
+	)
+	(junction
+		(at 80.01 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6012e17-2e02-4033-8baf-954d123449f9")
+	)
+	(junction
+		(at 92.71 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7274fed-f46b-463f-9038-6972d8d2302c")
+	)
+	(junction
+		(at 76.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d806738e-27a4-4072-bb37-4717ccd3bd8b")
+	)
+	(junction
+		(at 186.69 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e81eac6c-4de9-4111-8443-2b4aaee5a2fe")
+	)
+	(junction
+		(at 72.39 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efc74661-11ce-4e64-88d2-f16e730ed38f")
+	)
+	(wire
+		(pts
+			(xy 146.05 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0138cd67-cd3e-4d5e-959b-1a599cd31011")
+	)
+	(wire
+		(pts
+			(xy 80.01 146.05) (xy 83.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024ce9bb-4727-4445-a596-3133d4317936")
+	)
+	(wire
+		(pts
+			(xy 76.2 123.19) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026b699f-2de1-4660-9e73-2888dd79c18b")
+	)
+	(wire
+		(pts
+			(xy 92.71 146.05) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a7029b-c386-45dd-852d-f4e7de233097")
+	)
+	(wire
+		(pts
+			(xy 36.83 129.54) (xy 39.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04605c9b-b3ae-4736-9b82-b73db9decf4a")
+	)
+	(wire
+		(pts
+			(xy 80.01 38.1) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04df0639-39ea-49c7-9995-ad83c3eaf3ef")
+	)
+	(wire
+		(pts
+			(xy 31.75 46.99) (xy 35.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ae1982-907b-4f80-8671-ad675697e153")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 149.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05eeec44-4ff0-4ff0-b4cf-9445d4fcd09d")
+	)
+	(wire
+		(pts
+			(xy 88.9 38.1) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083f9232-2cf4-4466-9abf-89c458a9a6a8")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084db33b-2c60-4021-96d1-d15a59d44e32")
+	)
+	(wire
+		(pts
+			(xy 194.31 48.26) (xy 212.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab25619-b515-41ad-b619-e01a9db643bd")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 212.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdfff98-ec38-4f80-9757-1a513a761bfa")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 80.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bee4fe9-d33b-4a88-b8cb-51aa7f1eead7")
+	)
+	(wire
+		(pts
+			(xy 66.04 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db07336-4bfe-4c85-9f57-1ea06fe17678")
+	)
+	(wire
+		(pts
+			(xy 146.05 52.07) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9edf28-a73d-4dfe-9387-27aa58284d8a")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3f0817-a4ab-4991-93db-d0d0b8e3a4c0")
+	)
+	(wire
+		(pts
+			(xy 88.9 29.21) (xy 83.82 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119fba47-260f-4ee7-b330-7d65b6ced719")
+	)
+	(wire
+		(pts
+			(xy 190.5 27.94) (xy 194.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1251bf47-ec76-491c-a7a2-70dea6a19363")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 198.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1297cb6e-7017-48a8-ae82-cc7491c793fd")
+	)
+	(wire
+		(pts
+			(xy 83.82 146.05) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b6db9b-f479-4f7c-8210-3a02374d7dcf")
+	)
+	(wire
+		(pts
+			(xy 180.34 43.18) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f88e12-641c-42e6-b857-2421c3fd5dc5")
+	)
+	(wire
+		(pts
+			(xy 83.82 38.1) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1660f91b-d09e-431e-b664-f80bd064b672")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1832e1d5-e567-4760-b530-b959fa2f2b9c")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a40c2a6-07da-46fe-9c8f-9758c2fa7032")
+	)
+	(wire
+		(pts
+			(xy 46.99 149.86) (xy 49.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdb91a7-2623-451c-8607-c3c48da1e351")
+	)
+	(wire
+		(pts
+			(xy 92.71 123.19) (xy 92.71 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2e52c4-a4d6-4f5e-be97-8d53b0b76e39")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 76.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d873859-4ba0-4ea2-aab2-fe550fd29ec0")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f13390c-6907-418c-b1c5-c7c7e20d38c2")
+	)
+	(wire
+		(pts
+			(xy 72.39 55.88) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3bfbd3-607e-447c-b703-5725a4b2613a")
+	)
+	(wire
+		(pts
+			(xy 33.02 39.37) (xy 33.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209a40e8-c5d1-4298-aef2-31cfb4eb1c9b")
+	)
+	(wire
+		(pts
+			(xy 72.39 29.21) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227285be-d2ff-42b2-9eb9-ab70476c783c")
+	)
+	(wire
+		(pts
+			(xy 76.2 29.21) (xy 80.01 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2399e4a8-3382-4514-8527-2cff0fdc4dce")
+	)
+	(polyline
+		(pts
+			(xy 125.73 97.79) (xy 285.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241159d9-edfd-47db-bf66-4fb439d856d3")
+	)
+	(wire
+		(pts
+			(xy 66.04 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2522303d-bfcf-4dde-895a-968314c18add")
+	)
+	(wire
+		(pts
+			(xy 35.56 138.43) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ca4155-2c4f-4282-b079-666a8a5e219f")
+	)
+	(wire
+		(pts
+			(xy 190.5 43.18) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2813b79c-e0d7-4a72-aafa-1506397c007e")
+	)
+	(wire
+		(pts
+			(xy 35.56 55.88) (xy 31.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a254c2-7362-4572-873a-3a9a367aab95")
+	)
+	(wire
+		(pts
+			(xy 35.56 124.46) (xy 36.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b643e13-e17f-4e35-9a99-7f8cd7ceb10a")
+	)
+	(wire
+		(pts
+			(xy 149.86 35.56) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c316cc5-c871-4240-9740-9f82af009b51")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 101.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8ef631-a180-4baa-9e3a-1b9f8c6a89f2")
+	)
+	(wire
+		(pts
+			(xy 190.5 43.18) (xy 212.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343674d6-4b6b-47d0-9026-24544e7f0da4")
+	)
+	(wire
+		(pts
+			(xy 146.05 33.02) (xy 149.86 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357fd3e7-c549-4e1d-8817-1692a3fc7d9a")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393af5a6-c712-4014-a20b-08312d343bcd")
+	)
 	(wire
 		(pts
-			(xy 86.36 154.94) (xy 86.36 153.67)
+			(xy 157.48 63.5) (xy 160.02 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02f8750a-8be0-42d8-8ce9-3ed7003720ba")
+		(uuid "3dac1dcd-40c6-468a-92f3-701afae9b1ef")
 	)
 	(wire
 		(pts
-			(xy 57.15 21.59) (xy 57.15 19.05)
+			(xy 33.02 44.45) (xy 35.56 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "037fb352-f317-4b02-b675-1645eb3200fd")
+		(uuid "3e1e57a3-8845-49ae-bd4e-20f65bdfac8b")
 	)
 	(wire
 		(pts
-			(xy 166.37 21.59) (xy 166.37 19.05)
+			(xy 53.34 29.21) (xy 72.39 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0427a346-d463-449e-bb06-1ad7f297a2e6")
+		(uuid "3ef1e0bd-ef5d-4b54-8a0f-b2e0d16c4bd0")
 	)
 	(wire
 		(pts
-			(xy 153.67 34.29) (xy 139.7 34.29)
+			(xy 43.18 64.77) (xy 45.72 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0505b367-9c89-4cb7-ad6e-0ed1a9d5978a")
+		(uuid "41658adf-7495-40e4-80a9-1fefbb0f700a")
 	)
 	(wire
 		(pts
-			(xy 38.1 127) (xy 55.88 127)
+			(xy 76.2 114.3) (xy 76.2 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10534800-1183-4d09-99d8-c3b2e60498b5")
+		(uuid "43350360-2cf9-4533-af96-a2f798f3c54b")
 	)
 	(wire
 		(pts
-			(xy 187.96 77.47) (xy 187.96 78.74)
+			(xy 80.01 129.54) (xy 80.01 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12960249-f332-479c-9415-197c0faaa06d")
+		(uuid "4617f4cb-975c-4b3f-ba02-6127c56e483d")
 	)
 	(wire
+		(pts
+			(xy 194.31 31.75) (xy 194.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46326a8a-7942-444b-a51c-aa9865470b42")
+	)
+	(polyline
 		(pts
-			(xy 166.37 17.78) (xy 166.37 19.05)
+			(xy 11.43 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12e27d0b-261b-43a3-8264-5ead2c70e1b2")
+		(uuid "48f67394-8710-4301-8e81-280495e9f605")
 	)
 	(wire
 		(pts
-			(xy 78.74 57.15) (xy 78.74 59.69)
+			(xy 69.85 134.62) (xy 83.82 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1307f6ab-5955-4bb0-9cd2-af4067aa8651")
+		(uuid "49804a64-99e7-4446-aeb6-10043c36331d")
 	)
 	(wire
 		(pts
-			(xy 34.29 99.06) (xy 38.1 99.06)
+			(xy 80.01 49.53) (xy 97.79 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "179423aa-37d1-4881-89b1-6a48ba69668b")
+		(uuid "4a71d56a-367a-4fba-9c89-8f318de0884d")
 	)
 	(wire
 		(pts
-			(xy 187.96 57.15) (xy 187.96 59.69)
+			(xy 83.82 114.3) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21e18b8b-c32d-4fe9-873c-cf233f25ae04")
+		(uuid "4d05ce8d-90e2-4d4e-b5ec-2038ce74daf4")
 	)
 	(wire
 		(pts
-			(xy 48.26 78.74) (xy 48.26 76.2)
+			(xy 167.64 27.94) (xy 186.69 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2757a99e-cb2a-4eec-8151-fa34b826e822")
+		(uuid "4ed8c5be-e9ab-44b5-8332-e83fedc94821")
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 78.74 74.93)
+			(xy 147.32 38.1) (xy 147.32 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28793581-8dd2-40c1-b131-92cc26e244ff")
+		(uuid "4ffd4ad3-1f53-419f-a579-ab065a3790ac")
 	)
 	(wire
 		(pts
-			(xy 78.74 48.26) (xy 78.74 46.99)
+			(xy 39.37 140.97) (xy 35.56 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a2ba428-6978-4f61-87e6-e273cdee8d01")
+		(uuid "50ce22c3-bc54-4e69-8466-b5a2c986857f")
 	)
 	(wire
 		(pts
-			(xy 139.7 46.99) (xy 157.48 46.99)
+			(xy 31.75 39.37) (xy 33.02 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ab80582-4b6c-43c9-b27a-04f5691a3284")
+		(uuid "512efd6f-306a-4c0b-b720-cbfcbc970732")
 	)
 	(wire
 		(pts
-			(xy 38.1 114.3) (xy 30.48 114.3)
+			(xy 83.82 52.07) (xy 97.79 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d3c9bdd-f17b-4cad-b564-59fbe8f076bb")
+		(uuid "585248cb-9d97-44e3-9160-6cc437861d79")
 	)
 	(wire
 		(pts
-			(xy 52.07 114.3) (xy 38.1 114.3)
+			(xy 203.2 27.94) (xy 198.12 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32772a59-47a7-44dc-a914-8b65b1a767f0")
+		(uuid "58febee7-94e2-4eae-9a89-4e4aa5771efc")
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 187.96 86.36)
+			(xy 180.34 40.64) (xy 186.69 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34876cc7-87ed-4491-98bb-5a925a86d460")
+		(uuid "5d5cbe63-b61b-446e-a5eb-5b548eb50942")
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 86.36 132.08)
+			(xy 45.72 64.77) (xy 50.8 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35cbf939-64ab-40a6-92ec-b75a3a28d8a0")
+		(uuid "5ebcdf16-a7c9-4953-b520-28e2df0e700b")
 	)
 	(wire
 		(pts
-			(xy 87.63 157.48) (xy 86.36 157.48)
+			(xy 186.69 54.61) (xy 186.69 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "377fe624-ba8f-412d-bca2-70fded852800")
+		(uuid "609e0154-a79f-4c38-9acf-c332b3f8ea06")
 	)
 	(wire
 		(pts
-			(xy 26.67 31.75) (xy 26.67 19.05)
+			(xy 80.01 129.54) (xy 101.6 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bd124c5-b0dc-4337-b099-5e6eeed74ac1")
+		(uuid "619af279-e6d1-40d2-83f3-de2b009b76e8")
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 187.96 41.91)
+			(xy 76.2 44.45) (xy 97.79 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dde1dbd-fd5f-4679-a4d8-242978cc1790")
+		(uuid "61d78b2c-7444-4209-b4cd-afe34af076f8")
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 86.36 121.92)
+			(xy 149.86 48.26) (xy 149.86 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3eca2aa6-9739-42ea-856b-10b2f9628e39")
+		(uuid "66ae48af-df2d-4acf-a649-90aa5b31bf3b")
 	)
 	(wire
 		(pts
-			(xy 139.7 19.05) (xy 139.7 22.86)
+			(xy 87.63 118.11) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "439b6b23-8e96-4b25-9cdf-a5dac3f8e2c0")
+		(uuid "67e23a8e-fe5d-431a-81cf-11fcfce187a2")
 	)
 	(wire
 		(pts
-			(xy 38.1 129.54) (xy 55.88 129.54)
+			(xy 49.53 149.86) (xy 54.61 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43dc6f95-c8dd-4a90-ac34-aafe2d83f4fd")
+		(uuid "6e5fda9a-e63e-4317-abe4-f40bf006c227")
 	)
 	(wire
 		(pts
-			(xy 139.7 19.05) (xy 144.78 19.05)
+			(xy 87.63 123.19) (xy 87.63 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47502502-ec5a-49db-a58f-4d9ec44cf01a")
+		(uuid "6fe28e30-0a21-4c8c-9584-24e353feb7de")
 	)
 	(wire
 		(pts
-			(xy 55.88 158.75) (xy 55.88 156.21)
+			(xy 180.34 50.8) (xy 198.12 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c253833-6577-41c9-8da5-d1bcb9707c79")
+		(uuid "714ae050-a332-4f1c-b969-0faebef9cb2a")
 	)
 	(wire
 		(pts
-			(xy 157.48 78.74) (xy 157.48 76.2)
+			(xy 35.56 49.53) (xy 35.56 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ead0f2f-e267-4ba4-96d4-94217f7ec7bd")
+		(uuid "724a4250-b457-43ed-85f7-d0974699321b")
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 22.86 34.29)
+			(xy 83.82 52.07) (xy 83.82 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55bfd329-ad55-4321-9735-635ee4e7638e")
+		(uuid "768ced0c-0242-4c97-9ab7-35e8887b513f")
 	)
 	(wire
 		(pts
-			(xy 78.74 66.04) (xy 78.74 68.58)
+			(xy 66.04 44.45) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "592907b3-0b89-4194-ac9e-b94367646b8d")
+		(uuid "786706a1-4367-429d-9551-0426e78cdeb5")
 	)
 	(wire
 		(pts
-			(xy 30.48 49.53) (xy 48.26 49.53)
+			(xy 88.9 33.02) (xy 88.9 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5972565d-6559-4327-90e2-a03a972de596")
+		(uuid "79278421-e3ea-4006-a864-25afceddfb2e")
 	)
 	(wire
 		(pts
-			(xy 44.45 34.29) (xy 30.48 34.29)
+			(xy 203.2 31.75) (xy 203.2 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bd4ca36-86c3-4c00-bc4a-7b51d2e4cd34")
+		(uuid "7f0690ac-57d5-4b33-9d28-73120a31cfac")
 	)
 	(wire
 		(pts
-			(xy 139.7 27.94) (xy 139.7 34.29)
+			(xy 35.56 119.38) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60a0772d-84a2-451c-821c-6d0deeed48c2")
+		(uuid "7f20afd4-6a0c-4dcd-979e-eb79583baaa4")
 	)
 	(wire
 		(pts
-			(xy 78.74 77.47) (xy 78.74 78.74)
+			(xy 76.2 33.02) (xy 76.2 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "625158ec-c394-418f-8692-94e3d346a602")
+		(uuid "7fa8635b-d016-4930-86e5-e4173d6c40ce")
 	)
 	(wire
 		(pts
-			(xy 133.35 19.05) (xy 135.89 19.05)
+			(xy 39.37 134.62) (xy 39.37 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6391a1c7-560e-4eaf-8a65-53a73e048327")
+		(uuid "83717f61-efd5-4f39-8228-624ddecad86c")
 	)
 	(wire
 		(pts
-			(xy 86.36 157.48) (xy 86.36 158.75)
+			(xy 38.1 124.46) (xy 39.37 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "641a1740-5632-4080-8eee-44b26b1b5026")
+		(uuid "8544ad5b-3422-4b11-a1e2-b1a47fe5ab43")
 	)
 	(wire
 		(pts
-			(xy 153.67 19.05) (xy 149.86 19.05)
+			(xy 190.5 31.75) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "664ef430-baef-48b5-97e2-87a20cda6574")
+		(uuid "88b8c32a-fdde-44c8-8592-c464957e4bd5")
 	)
 	(wire
 		(pts
-			(xy 30.48 27.94) (xy 30.48 34.29)
+			(xy 83.82 134.62) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68a874f7-1f15-4b58-9427-599eb8dd6dcc")
+		(uuid "8c7f571c-527a-4279-bbe0-adfc5b225bf9")
 	)
 	(wire
 		(pts
-			(xy 86.36 154.94) (xy 87.63 154.94)
+			(xy 31.75 41.91) (xy 31.75 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ab25455-cc7f-4779-9746-09409de08875")
+		(uuid "8d30c2fa-56b3-4723-b1c3-560e1b77a092")
 	)
 	(wire
+		(pts
+			(xy 35.56 132.08) (xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d34dd07-15ff-40e2-8750-34aec6b5bc09")
+	)
+	(polyline
 		(pts
-			(xy 38.1 153.67) (xy 55.88 153.67)
+			(xy 125.73 97.79) (xy 125.73 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f3fb287-4492-4d0f-90f3-fbddab73c151")
+		(uuid "91829e9d-5039-4c95-a359-a038d731b8e2")
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 43.18 99.06)
+			(xy 92.71 118.11) (xy 92.71 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7163dbf9-3e5c-4752-9e7e-9ed9cd3ae0ad")
+		(uuid "92f971c9-890c-4774-991d-0d8ab95a792d")
 	)
 	(wire
 		(pts
-			(xy 135.89 19.05) (xy 139.7 19.05)
+			(xy 72.39 29.21) (xy 76.2 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "738795ab-7223-4bd1-ba94-084ab3d82416")
+		(uuid "9379cb84-c56b-4842-8ef0-fc475d89310c")
 	)
 	(wire
 		(pts
-			(xy 166.37 26.67) (xy 166.37 34.29)
+			(xy 80.01 29.21) (xy 83.82 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7482d1db-6e56-462f-b7d5-4094f9859831")
+		(uuid "940c9170-190b-49d4-a119-9e71d636ef45")
 	)
 	(wire
 		(pts
-			(xy 44.45 22.86) (xy 44.45 19.05)
+			(xy 66.04 52.07) (xy 83.82 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77aa1987-23da-49f7-8f9e-bbb53bc8238c")
+		(uuid "95b1158f-0dc9-4adb-b0e7-cb05d1fced9b")
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 157.48 49.53)
+			(xy 76.2 127) (xy 101.6 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86f197e1-427c-422b-9a6d-9bd3487cdba7")
+		(uuid "961149cd-bfa3-42da-98ce-146d8145130c")
 	)
 	(wire
 		(pts
-			(xy 30.48 19.05) (xy 30.48 22.86)
+			(xy 194.31 48.26) (xy 194.31 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89e9f351-7416-4f3b-a751-8e8d386b3af9")
+		(uuid "9a22d518-d8dc-4c58-b28d-92fc32405ae7")
 	)
 	(wire
 		(pts
-			(xy 57.15 17.78) (xy 57.15 19.05)
+			(xy 72.39 41.91) (xy 97.79 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c0b4b30-484e-45ab-bd3f-ed467b220ba5")
+		(uuid "9a9808aa-c9ff-4fd0-ab18-43d4933c06bc")
 	)
 	(wire
 		(pts
-			(xy 24.13 19.05) (xy 26.67 19.05)
+			(xy 83.82 123.19) (xy 83.82 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c24fe76-6c3d-4c88-ab67-182df87cceed")
+		(uuid "9a9862fc-bba6-4fcf-8606-a090d28b0ce8")
 	)
 	(wire
 		(pts
-			(xy 64.77 99.06) (xy 52.07 99.06)
+			(xy 146.05 40.64) (xy 146.05 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c68bd96-d271-43fb-b9c7-fb41274eb51d")
+		(uuid "9b90e1d8-3e3b-4cf5-8bf2-36315f9aa0cc")
 	)
 	(wire
 		(pts
-			(xy 26.67 19.05) (xy 30.48 19.05)
+			(xy 83.82 134.62) (xy 83.82 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90e5a0d2-5d08-4fb1-a64d-819967a4cf3d")
+		(uuid "9ba949be-fc5f-4443-8aba-8b06b509f284")
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 52.07 114.3)
+			(xy 149.86 54.61) (xy 146.05 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "917b24ce-7b89-47f9-856b-611ead5eecc3")
+		(uuid "9c2ecc68-ce31-4e87-bd76-6262234c0667")
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 64.77 114.3)
+			(xy 83.82 33.02) (xy 83.82 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9324308d-5258-4e0d-a24c-4851662fcd99")
+		(uuid "a12c950e-8c55-4d14-ac7e-8a318c473f01")
 	)
 	(wire
 		(pts
-			(xy 55.88 129.54) (xy 55.88 132.08)
+			(xy 186.69 27.94) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c2d8e6c-c378-4d2d-b81f-4f3faf0f815c")
+		(uuid "a225f885-34a1-4880-8e5c-9352c49eb903")
 	)
 	(wire
 		(pts
-			(xy 166.37 19.05) (xy 153.67 19.05)
+			(xy 76.2 140.97) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a37b77a2-e61d-4411-a503-a52de16773c3")
+		(uuid "a2f49a30-86d1-4ae8-aacc-2ba6053ae661")
 	)
 	(wire
 		(pts
-			(xy 44.45 19.05) (xy 40.64 19.05)
+			(xy 57.15 114.3) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a469fa5b-dee6-40ee-ae74-a662480be562")
+		(uuid "a5248bde-ce0d-4d27-bff5-14bbcdc34ae5")
 	)
 	(wire
 		(pts
-			(xy 57.15 26.67) (xy 57.15 34.29)
+			(xy 39.37 121.92) (xy 35.56 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a85cc5c0-5f25-438a-abcb-d3c47a23189b")
+		(uuid "a71b6657-ebc8-4950-8489-97e1c4381a14")
 	)
 	(wire
 		(pts
-			(xy 153.67 27.94) (xy 153.67 34.29)
+			(xy 180.34 48.26) (xy 194.31 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9860323-fd60-40c6-aac1-048e4893f601")
+		(uuid "aac118af-684e-4ff7-938e-d3f4944c5651")
 	)
 	(wire
+		(pts
+			(xy 194.31 27.94) (xy 198.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab30d988-60e0-4f15-8aac-11b8b61f1870")
+	)
+	(polyline
 		(pts
-			(xy 157.48 76.2) (xy 139.7 76.2)
+			(xy 125.73 11.43) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa7c8a8a-d929-4a70-8f2b-61f2b46e0efd")
+		(uuid "abec5f4c-051e-4b87-bf6a-416b0c959761")
 	)
 	(wire
 		(pts
-			(xy 30.48 19.05) (xy 35.56 19.05)
+			(xy 69.85 129.54) (xy 80.01 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adfd2501-127f-45b8-93d1-ec28787f00d2")
+		(uuid "ad7b4243-899f-461f-932e-c034f133a450")
 	)
 	(wire
 		(pts
-			(xy 22.86 31.75) (xy 26.67 31.75)
+			(xy 69.85 127) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af2105a3-1cc9-413f-b28c-a2e9e71a3833")
+		(uuid "ae3c501b-87e7-453b-9bcb-9172b8e11939")
 	)
 	(wire
 		(pts
-			(xy 86.36 163.83) (xy 86.36 166.37)
+			(xy 186.69 27.94) (xy 186.69 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1ab664c-4604-4ed3-983f-d357d7d87bc0")
+		(uuid "aefe8f07-452b-4334-a943-4603746152d3")
 	)
 	(wire
 		(pts
-			(xy 64.77 101.6) (xy 64.77 99.06)
+			(xy 80.01 49.53) (xy 80.01 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b68bfbe1-379d-4fc3-be64-e06040ef8dae")
+		(uuid "bbcdd871-e040-467b-9452-c2979fe6e63d")
 	)
 	(wire
 		(pts
-			(xy 57.15 19.05) (xy 44.45 19.05)
+			(xy 72.39 38.1) (xy 72.39 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7041b1f-6010-4d28-a4b2-fae0c9bf23be")
+		(uuid "bcc4044e-f563-4392-b657-c3a70dd599f1")
 	)
 	(wire
 		(pts
-			(xy 86.36 128.27) (xy 86.36 127)
+			(xy 198.12 36.83) (xy 198.12 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b75d0899-639c-46d9-b31e-b9a5eb625d9a")
+		(uuid "bf24c904-2515-42e4-99dd-c0b9335b24e2")
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 78.74 52.07)
+			(xy 80.01 33.02) (xy 80.01 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8033599-90ea-478e-bf28-89b19e10409a")
+		(uuid "bff60066-6a6f-4242-9159-389f7299fadc")
 	)
 	(wire
 		(pts
-			(xy 86.36 137.16) (xy 86.36 139.7)
+			(xy 83.82 118.11) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bad92c65-19bc-4ca8-a503-95b11b6d0b38")
+		(uuid "c0fa99d7-a8ed-4a85-8752-2124ecedb136")
 	)
 	(wire
 		(pts
-			(xy 132.08 31.75) (xy 135.89 31.75)
+			(xy 80.01 118.11) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc58d61e-241f-4027-a5ba-4a6f9ef3c6bd")
+		(uuid "c846b03a-4870-45eb-8dbb-a1d6bfa089ba")
 	)
 	(wire
 		(pts
-			(xy 30.48 73.66) (xy 48.26 73.66)
+			(xy 186.69 40.64) (xy 212.09 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c011bb73-17e5-498b-a57f-18bf1e012055")
+		(uuid "cafab888-cebf-4b11-97da-3b1c2897643f")
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 38.1 102.87)
+			(xy 34.29 39.37) (xy 35.56 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1fb83ae-9be3-4a4d-8cfc-ca1624888dba")
+		(uuid "cb33830d-a5fa-4eae-ac05-6ef61326751c")
 	)
 	(wire
 		(pts
-			(xy 52.07 102.87) (xy 52.07 99.06)
+			(xy 147.32 43.18) (xy 149.86 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c52d02b8-1874-4761-bec6-e746b7f2e971")
+		(uuid "cc6b7260-f16f-4d7f-9fc8-f65dae1ecbcd")
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 187.96 73.66)
+			(xy 198.12 31.75) (xy 198.12 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f8dcf0-298b-409c-a0a7-8b63ef64f1bd")
+		(uuid "cdfd2cd8-9dc4-4a4a-8a8d-38fd736c9908")
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 86.36)
+			(xy 87.63 137.16) (xy 87.63 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd283828-1aab-472d-964e-52ebe9bcd24a")
+		(uuid "d0ff2382-632d-4e0c-bb7b-81c0fe7e2aa7")
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 157.48 52.07)
+			(xy 34.29 53.34) (xy 34.29 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce60e784-6f42-4a93-8318-d3353ee9b994")
+		(uuid "d10db1f0-7d2a-422d-a85d-980a02e51ec5")
 	)
 	(wire
 		(pts
-			(xy 38.1 107.95) (xy 38.1 114.3)
+			(xy 38.1 138.43) (xy 38.1 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf0441c6-81a0-45a6-8561-6eb169328dd3")
+		(uuid "d18620a1-890e-4b5f-bff1-7a209374c246")
 	)
 	(wire
 		(pts
-			(xy 48.26 76.2) (xy 30.48 76.2)
+			(xy 35.56 127) (xy 35.56 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d07b7a58-7f45-4ec7-8df4-7c1d5041a633")
+		(uuid "d1f1676a-9d40-4e62-b3cd-3c333ffe593d")
 	)
 	(wire
 		(pts
-			(xy 30.48 111.76) (xy 34.29 111.76)
+			(xy 80.01 60.96) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1296567-b9b4-45d8-978d-fc2f88888df5")
+		(uuid "d3a50b66-c6c2-476e-9b20-59c8f4074a83")
 	)
 	(wire
 		(pts
-			(xy 48.26 49.53) (xy 48.26 52.07)
+			(xy 203.2 36.83) (xy 203.2 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1b3b8e4-6aa1-4ea8-af6d-801843639002")
+		(uuid "d468fa54-e636-4a62-bf50-b673d5f0642c")
 	)
 	(wire
 		(pts
-			(xy 64.77 114.3) (xy 52.07 114.3)
+			(xy 36.83 124.46) (xy 36.83 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6fa5af8-533f-435f-9be4-f7b3fc0021dc")
+		(uuid "d7be97c0-149e-4e26-b9e3-b4fa2ac5b271")
 	)
 	(wire
 		(pts
-			(xy 57.15 34.29) (xy 44.45 34.29)
+			(xy 69.85 137.16) (xy 87.63 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8aca9bc-8341-489c-b909-14064d0bcdb6")
+		(uuid "d7d71ecd-0915-4371-90c8-682d05524bd3")
 	)
 	(wire
 		(pts
-			(xy 187.96 48.26) (xy 187.96 46.99)
+			(xy 76.2 44.45) (xy 76.2 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db2ef00b-c8ea-43a4-b771-fbf7b348e7b7")
+		(uuid "d9c730ec-5ee2-422b-9781-0af1216ee47f")
 	)
 	(wire
 		(pts
-			(xy 44.45 27.94) (xy 44.45 34.29)
+			(xy 186.69 36.83) (xy 186.69 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1d2c63-c4be-4f47-be83-847c7ac2d401")
+		(uuid "ded2c754-83ac-4b49-8ce0-3c3f1857e6d3")
 	)
 	(wire
 		(pts
-			(xy 30.48 46.99) (xy 48.26 46.99)
+			(xy 190.5 36.83) (xy 190.5 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd54dbcd-9268-40ce-86ce-2a8a5acd1cdb")
+		(uuid "def7009d-db24-4f2b-8a7e-350e2c04edff")
 	)
 	(wire
 		(pts
-			(xy 135.89 31.75) (xy 135.89 19.05)
+			(xy 148.59 52.07) (xy 148.59 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd8cebfe-0858-4575-8a5f-2f7554c1a052")
+		(uuid "e19b60d8-a51e-4d02-81a9-e7dc66059612")
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 187.96 52.07)
+			(xy 190.5 59.69) (xy 194.31 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "decd8201-4839-4f15-96e0-eb96db3c5753")
+		(uuid "e630bb59-e9fe-4ed3-92bd-172953736da0")
 	)
 	(wire
 		(pts
-			(xy 52.07 99.06) (xy 48.26 99.06)
+			(xy 31.75 34.29) (xy 35.56 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3a7b81b-7040-4f5e-bed8-bdf4b5739667")
+		(uuid "ee69d4b8-71d5-435d-b5a8-1bea9336486c")
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 157.48 73.66)
+			(xy 198.12 50.8) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaf14da3-9a6d-4fda-9256-526a6ce9925e")
+		(uuid "ef2c7807-6a48-4536-9ea7-405774de4478")
 	)
 	(wire
 		(pts
-			(xy 166.37 34.29) (xy 153.67 34.29)
+			(xy 92.71 114.3) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f03e2265-2f5e-4c86-a111-275331def5cc")
+		(uuid "f1d0f6ce-ffc5-4b63-b65c-b93cb0f0bf80")
 	)
 	(wire
 		(pts
-			(xy 55.88 156.21) (xy 38.1 156.21)
+			(xy 80.01 123.19) (xy 80.01 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f26dadb8-19a5-4421-b17a-7d720dc1beca")
+		(uuid "f24ef194-d62e-45cf-af8f-ca48ea5a6d3a")
 	)
 	(wire
 		(pts
-			(xy 34.29 111.76) (xy 34.29 99.06)
+			(xy 76.2 60.96) (xy 80.01 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f332a491-0f22-4149-b610-b3faa098b4c7")
+		(uuid "f3a6c5b9-a7e7-472c-ad94-ed8a4e2c067e")
 	)
 	(wire
 		(pts
-			(xy 31.75 99.06) (xy 34.29 99.06)
+			(xy 35.56 36.83) (xy 31.75 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f71b2d7d-3994-44cc-858b-66ebcb30d8e8")
+		(uuid "f43b31c7-b3ae-4647-b732-c68ac7e64d39")
 	)
 	(wire
 		(pts
-			(xy 187.96 66.04) (xy 187.96 68.58)
+			(xy 203.2 59.69) (xy 198.12 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa0a376d-8d46-412b-a31d-d70d4e59bae4")
+		(uuid "f4f286c8-3907-4547-be23-5abf59f44614")
 	)
 	(wire
 		(pts
-			(xy 139.7 34.29) (xy 132.08 34.29)
+			(xy 194.31 36.83) (xy 194.31 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb6d5067-b83d-442a-aec6-9147030b8120")
+		(uuid "f631d562-2589-469c-b14c-9619232695e8")
 	)
 	(wire
 		(pts
-			(xy 153.67 22.86) (xy 153.67 19.05)
+			(xy 186.69 59.69) (xy 190.5 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd8b0019-cb83-422b-b7c0-9c07d8126b05")
+		(uuid "fb618c64-0c1a-4cb1-b8f6-e7fdd781835e")
 	)
 	(wire
 		(pts
-			(xy 78.74 39.37) (xy 78.74 41.91)
+			(xy 31.75 53.34) (xy 34.29 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffb7b151-f34c-42af-ab19-36eeeb2597b0")
+		(uuid "fe9a2858-a923-4c0a-8f27-86378630f8fc")
 	)
-	(text "https://image.easyeda.com/components/31353204787244f0a04444e7d4c4cfa6.png"
+	(text "https://www.handsontec.com/dataspecs/L298N%20Motor%20Driver.pdf"
 		(exclude_from_sim no)
-		(at 216.154 127.254 0)
+		(at 124.968 4.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "0adc1e43-9d05-406a-b620-9aac8bc22f37")
+		(uuid "9c51b28d-2068-429b-b004-1a8f3a68036d")
 	)
-	(text "GPIO ile sürülecek bunlar\n5V çalışıyo sıkıntı?"
+	(text "https://image.easyeda.com/components/d43d3c46faff4ba8b6a4d30e04717420.png"
 		(exclude_from_sim no)
-		(at 24.892 7.874 0)
+		(at 131.572 8.382 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "d551980e-0655-402b-8417-76bd49192e6e")
+		(uuid "b10c6975-0a91-44d2-85b2-1c01dea3d373")
 	)
-	(global_label "5V"
+	(global_label "3V3"
 		(shape input)
-		(at 78.74 39.37 90)
+		(at 54.61 114.3 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2241,9 +2789,9 @@
 			)
 			(justify left)
 		)
-		(uuid "11d0d56f-1a03-41ff-a5bc-3e656138c492")
+		(uuid "02ad68d3-ba00-495e-9433-82ebafc7977e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 34.0867 90)
+			(at 54.61 107.8072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,9 +2801,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "3V3"
 		(shape input)
-		(at 78.74 66.04 0)
+		(at 165.1 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2263,9 +2811,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1abacea4-aca7-4fc6-b5fc-cb2c63eb6f37")
+		(uuid "34f58cc4-6e8b-4f40-997a-f791ac18b5af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.0233 66.04 0)
+			(at 165.1 21.4472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,9 +2823,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "3V3"
 		(shape input)
-		(at 166.37 17.78 90)
+		(at 50.8 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2285,9 +2833,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4618b2d0-4fc8-475a-855b-f1c9f10ed0be")
+		(uuid "6b6d8b4a-4898-49dd-be18-44f095008039")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 12.4967 90)
+			(at 50.8 22.7172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,63 +2845,35 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 24.13 19.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "495685bb-0cca-43f9-8909-3b9b78e2b4e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.5162 19.05 0)
+	(symbol
+		(lib_id "Driver_Motor:L298N")
+		(at 50.8 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "001e6ca7-38c2-4b3b-9dc7-2beca83f4163")
+		(property "Reference" "U1"
+			(at 48.768 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 31.75 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64df747a-c0cd-4df7-8ac8-b96399f2f9d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1362 99.06 0)
+		(property "Value" "L298N"
+			(at 48.768 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 57.15 17.78 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "854368cc-e3a2-4546-b141-85b4df37f870")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 12.4967 90)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical"
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,542 +2882,525 @@
 				(hide yes)
 			)
 		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 187.96 39.37 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "cec0770c-5e84-4413-8f7c-c297b960d60f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 34.0867 90)
+		(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "e364556f-0ea1-4250-a2a0-3372eb7c6c9f")
+		)
+		(pin "1"
+			(uuid "ae69db00-9d09-4376-9974-65b765a6bffd")
+		)
+		(pin "5"
+			(uuid "814e5a57-8428-41fe-b1ff-9db44f41989d")
+		)
+		(pin "7"
+			(uuid "5ad7c963-7216-425a-868f-7a5d216b6f21")
+		)
+		(pin "6"
+			(uuid "61702ef7-c9f1-4542-9735-1cacebb0a76b")
+		)
+		(pin "3"
+			(uuid "35761970-c60d-46cd-836d-cd63f26ca323")
+		)
+		(pin "4"
+			(uuid "a7ba3bbf-206d-41a0-99d2-b37912d9f4a7")
+		)
+		(pin "14"
+			(uuid "6ce79f37-9a25-49f0-9c86-e62aac2e5eee")
+		)
+		(pin "2"
+			(uuid "6fcbf7ed-dbcb-42f1-b0f4-e7901ce884d7")
+		)
+		(pin "12"
+			(uuid "b1ed73f0-b9c6-4d36-ba5c-56eabbee4b92")
+		)
+		(pin "10"
+			(uuid "6302b28b-a41e-4fd3-9848-2c3f5fd46aab")
+		)
+		(pin "11"
+			(uuid "4da2ad05-003a-4105-ba8f-54f0ed710268")
+		)
+		(pin "15"
+			(uuid "d4773881-6d6e-46f6-a7c4-6c3efa455df9")
+		)
+		(pin "9"
+			(uuid "c2318fd6-eee1-4287-91e6-7a0fdf48b7f9")
+		)
+		(pin "8"
+			(uuid "277406a8-0043-4cbc-84ac-864a329182b5")
+		)
+		(instances
+			(project ""
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 87.63 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4065d7-7b6b-45c5-8788-e874d7ae10c6")
+		(property "Reference" "D24"
+			(at 99.314 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 64.77 99.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7efe452-3f88-4121-83ef-d097f3550b95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 93.7767 90)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 99.314 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 87.63 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 86.36 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Datasheet" "~"
+			(at 87.63 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "e2b76f80-3de0-444e-a3b5-32d88d98d7bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 114.0967 90)
+		(property "Description" "Diode, small symbol"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b35a364e-f54b-4ef0-8dfa-57561aecd0f3")
+		)
+		(pin "1"
+			(uuid "708494d7-997c-4ba3-b76d-9b385cbf74ec")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 72.39 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "125ad3f5-8da7-4cf0-9b22-d53a6fd3e1b8")
+		(property "Reference" "D6"
+			(at 55.118 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 187.96 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e68ad248-f9ae-4bb7-a2ad-1a6a003627ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.2433 66.04 0)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 55.118 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 133.35 19.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6083f92-2c32-4da8-bd64-653279092a61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.7362 19.05 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 72.39 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ed8c0db-9a1c-404c-809d-c7237f333c7e")
+		)
+		(pin "1"
+			(uuid "22462e8b-29d0-4d28-927b-b784b1837bc1")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 186.69 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15a6a85e-a312-499e-a2ad-84b849f4926f")
+		(property "Reference" "D11"
+			(at 169.418 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 169.418 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 186.69 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e8ac334-3dbd-4448-b756-0c97587478b8")
+		)
+		(pin "1"
+			(uuid "9e0150d1-4e9d-40cd-8133-ea87bb658c87")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 80.01 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "199ac820-afe1-43c6-af27-c26059b2126f")
+		(property "Reference" "D21"
+			(at 78.232 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 78.232 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 80.01 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 80.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8914abdd-08ba-4a3c-88c2-abe0da4e94af")
+		)
+		(pin "1"
+			(uuid "a932d186-530e-40c4-ac75-5839ad66f85e")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 83.82 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c3a3b0-bd6b-4d16-b18c-172b8599bb41")
+		(property "Reference" "D23"
+			(at 98.298 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 98.298 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 83.82 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 83.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc3735cd-fbd5-4bac-b56d-551ff5c92f57")
+		)
+		(pin "1"
+			(uuid "5c195609-1654-4f06-aa61-c8c9d183d0a5")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D23")
+					(unit 1)
+				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 139.7 90)
+		(at 203.2 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "004f8d70-884d-47c9-b2a5-e51d3f9aa799")
-		(property "Reference" "#PWR018"
-			(at 92.71 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6103eb8-a592-420b-b9be-dcac7cd3ed99")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01e33a98-fdec-4139-9385-89819d08079e")
-		(property "Reference" "J15"
-			(at 95.25 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 95.25 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 92.71 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0728388-f4a2-4ffa-a60f-9baca81f809e")
-		)
-		(pin "1"
-			(uuid "6983b396-e923-46e2-8b97-6433e9e3e3ac")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 38.1 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "160056f7-bb75-4c66-b072-830fc6387bdd")
-		(property "Reference" "C25"
-			(at 40.64 103.5938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u 16V"
-			(at 40.64 106.1338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dde03f8-0015-4c4f-a39d-a4600d3378b7")
-		)
-		(pin "2"
-			(uuid "2b230521-788d-4692-a163-61ca350c4a31")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1670ddfa-557b-499c-a966-5a8f420b8788")
-		(property "Reference" "J10"
-			(at 195.58 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 195.58 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 193.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5039574-942a-4b0e-a836-fa86da60a4bf")
-		)
-		(pin "1"
-			(uuid "6de7f305-0899-4af7-8656-6a7a9b54839f")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 134.62 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21a1c762-c2dd-4244-87fc-d98d1b91d70e")
-		(property "Reference" "J7"
-			(at 134.62 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 134.62 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca3676bc-f6db-4e27-840a-0542b4fe616d")
-		)
-		(pin "1"
-			(uuid "b6a7bd5d-3738-40f1-b763-5b78227970ee")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "300a19d0-5883-4eed-b783-09aa91dad5e6")
-		(property "Reference" "J4"
-			(at 25.4 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 25.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20362f23-e8f5-4b4f-ab69-5ec08ed67b10")
-		)
-		(pin "1"
-			(uuid "5a7ba193-b974-4c63-a98c-acc3e5e48058")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37ee274f-1775-4383-9dc5-f7cf42d8ecb2")
+		(uuid "2baa7461-36af-4028-a913-13a0b3fa57ac")
 		(property "Reference" "#PWR019"
-			(at 194.31 59.69 0)
+			(at 203.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,16 +3409,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 59.6899 90)
+			(at 203.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 59.69 0)
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 59.69 0)
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 59.69 0)
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +3444,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "158c11de-d52a-4d1e-8b7c-8d9693a11c6a")
+			(uuid "f9b80e49-6ccd-4136-a809-85b590020d98")
 		)
 		(instances
 			(project "controllerForVehicle"
@@ -2954,939 +3456,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 45.72 99.06 90)
+		(lib_id "Device:D_Small")
+		(at 72.39 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49e3abe1-4b55-4c5a-9122-37fbcb3b5fc9")
-		(property "Reference" "R15"
-			(at 45.72 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 45.72 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c1d8beb-6d71-4760-a3d4-0612f7fb8829")
-		)
-		(pin "1"
-			(uuid "ddf74dad-7704-4db2-ad2e-7151cf80d9c3")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d2fb336-76b1-4bf3-a246-a6ff2fe8a315")
-		(property "Reference" "J5"
-			(at 25.4 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58b80aa4-8d2a-4231-9f5f-9741ed8dd746")
-		)
-		(pin "1"
-			(uuid "faed5153-651a-430f-bb0f-194cb9c92597")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 139.7 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60a3f605-bbfb-4af5-a8f7-ab5a65bbc68a")
-		(property "Reference" "C23"
-			(at 142.24 23.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u 16V"
-			(at 142.24 26.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
-			(at 139.7 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 139.7 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ebf9331-1f67-49dc-b236-2caeb2a64ea4")
-		)
-		(pin "2"
-			(uuid "9dc9473b-1a68-49ff-83e0-08b3ec8c5121")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX1508:MX1508")
-		(at 63.5 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63c9e88f-71a1-43b7-b01c-a7a04ef8e1ae")
-		(property "Reference" "U4"
-			(at 63.246 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1508"
-			(at 63.246 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX1508:SOIC127P600X177-16N"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Sinotech Mixic Electronics Co., Ltd"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1508"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            \n                        \n"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "1c163190-7dfb-4fd9-831f-c518e406b190")
-		)
-		(pin "13"
-			(uuid "d5cd037b-e2e3-4179-9b11-4c291f555a71")
-		)
-		(pin "2"
-			(uuid "c74382a8-afae-4ba2-88ae-60e2779f505a")
-		)
-		(pin "6"
-			(uuid "0f8369d1-9c3a-4ccb-87a7-7b1f0eeccf75")
-		)
-		(pin "1"
-			(uuid "c8aaecf6-ec44-4ff1-ae02-93a167bd783c")
-		)
-		(pin "10"
-			(uuid "6d8022c2-9da4-4699-90ec-d5a1ee80652c")
-		)
-		(pin "12"
-			(uuid "86870935-40c7-4970-b6e6-f06be24f1807")
-		)
-		(pin "5"
-			(uuid "0b02771a-3955-433c-bf41-932535368f90")
-		)
-		(pin "8"
-			(uuid "2dca34fa-10f4-479a-a816-3d6bc10b351f")
-		)
-		(pin "11"
-			(uuid "e28829f0-a6db-494e-9421-ad1d00a20386")
-		)
-		(pin "4"
-			(uuid "8c7268d1-3b28-4c84-b19f-3b1afe7ba52f")
-		)
-		(pin "16"
-			(uuid "ba63bae3-fb12-4bab-8cf2-abf88786c542")
-		)
-		(pin "15"
-			(uuid "9808ddac-3cb2-489a-8684-b73880676174")
-		)
-		(pin "9"
-			(uuid "a23b7591-e4e8-421d-b69b-694611844f2a")
-		)
-		(pin "3"
-			(uuid "f05896ca-5e15-4642-b42c-a770a40b58d2")
-		)
-		(pin "7"
-			(uuid "2f6bcc26-cc52-47f8-91ab-4d67ab6a0557")
-		)
-		(instances
-			(project ""
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 33.02 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69a75d2f-0754-49aa-92f5-ba7449ba47f8")
-		(property "Reference" "J12"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 33.02 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40dbfa1a-d5d2-4fb7-a829-d5f80749f98a")
-		)
-		(pin "1"
-			(uuid "f63fa822-f442-4732-a4e0-9e88e35865b9")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 83.82 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c573910-1d68-42b2-91e8-df4584dc7a69")
-		(property "Reference" "J3"
-			(at 86.36 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 86.36 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 83.82 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd77e3ec-081d-4ca5-a17f-86520bed3a04")
-		)
-		(pin "1"
-			(uuid "53fc14f9-cfcf-409f-8d12-468237937e8b")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 33.02 156.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c5fc79e-8af6-48db-9be1-4dd9f648b2bb")
-		(property "Reference" "J13"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 33.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7167fe03-05d7-4391-af01-123c801104d8")
-		)
-		(pin "1"
-			(uuid "adb06cf7-4035-4fe1-97b4-e4b5cd860905")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 83.82 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70184a77-e2e5-4189-8971-1e65637e07b1")
-		(property "Reference" "J1"
-			(at 86.36 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 86.36 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 83.82 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56c46d39-26ae-4d4d-8f58-0b9110573753")
-		)
-		(pin "1"
-			(uuid "978e1fbc-941f-447f-bfd2-025954300f85")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX1508:MX1508")
-		(at 172.72 76.2 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77a0dd6b-5040-4bad-ab02-77bc83d546ad")
-		(property "Reference" "U5"
-			(at 172.212 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1508"
-			(at 172.212 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX1508:SOIC127P600X177-16N"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Sinotech Mixic Electronics Co., Ltd"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1508"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            \n                        \n"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "1c163190-7dfb-4fd9-831f-c518e406b191")
-		)
-		(pin "13"
-			(uuid "d5cd037b-e2e3-4179-9b11-4c291f555a72")
-		)
-		(pin "2"
-			(uuid "c74382a8-afae-4ba2-88ae-60e2779f505b")
-		)
-		(pin "6"
-			(uuid "8334e078-476d-4301-9c6e-b14eb63148b8")
-		)
-		(pin "1"
-			(uuid "c8aaecf6-ec44-4ff1-ae02-93a167bd783d")
-		)
-		(pin "10"
-			(uuid "2dbf5641-71e4-44d6-a33f-bf30009ac82f")
-		)
-		(pin "12"
-			(uuid "617ee86c-7b97-4502-b37a-8244f31af3f4")
-		)
-		(pin "5"
-			(uuid "ee317e16-955f-4289-a891-fb66afe1402b")
-		)
-		(pin "8"
-			(uuid "ea669439-7b83-46a0-8af1-e3f36bce92fc")
-		)
-		(pin "11"
-			(uuid "c5e027c7-7780-4fd8-8fec-756c21480c7b")
-		)
-		(pin "4"
-			(uuid "8c7268d1-3b28-4c84-b19f-3b1afe7ba530")
-		)
-		(pin "16"
-			(uuid "ba63bae3-fb12-4bab-8cf2-abf88786c543")
-		)
-		(pin "15"
-			(uuid "9808ddac-3cb2-489a-8684-b73880676175")
-		)
-		(pin "9"
-			(uuid "f71cb85f-821d-4018-850f-a14f3eddff57")
-		)
-		(pin "3"
-			(uuid "f05896ca-5e15-4642-b42c-a770a40b58d3")
-		)
-		(pin "7"
-			(uuid "cf00e815-ec7a-4729-8519-688c5f715bef")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 57.15 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77bc4fd2-0ecf-48b3-8917-fe27090221e1")
+		(uuid "3203908b-6fc5-4288-bd3f-b3d11d2277b8")
 		(property "Reference" "D2"
-			(at 59.69 22.8599 90)
+			(at 56.388 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,8 +3473,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55 5.1V"
-			(at 59.69 25.3999 90)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 56.388 24.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3483,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 57.15 24.13 90)
+			(at 72.39 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 24.13 90)
+			(at 72.39 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,8 +3500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode, small symbol"
-			(at 57.15 24.13 0)
+		(property "Description" "Diode, small symbol"
+			(at 72.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,11 +3509,29 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2445be3d-3f6b-430a-9ca9-ef26c2abdb99")
+		(property "Sim.Device" "D"
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "377d6bdd-0ff2-4c5d-b55d-c3e5617777dd")
+			(uuid "ff600e63-52bb-4451-9773-595196651312")
+		)
+		(pin "1"
+			(uuid "ea968aaf-ed5d-46cb-997d-bb3f1cb22833")
 		)
 		(instances
 			(project ""
@@ -3946,326 +3543,44 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 59.69 90)
+		(lib_id "Driver_Motor:L298N")
+		(at 165.1 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a854cea-c458-4acc-a536-ced3a2bb1d1f")
-		(property "Reference" "#PWR017"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549df59c-c01c-4688-81e6-483b32396245")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 153.67 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862f5874-0f11-42bf-8ab7-9792d0e8b73b")
-		(property "Reference" "C24"
-			(at 156.21 23.5838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u 16V"
-			(at 156.21 26.1238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
-			(at 153.67 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 153.67 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95d8a119-47c4-48da-a3be-2b7bddb67998")
-		)
-		(pin "2"
-			(uuid "410a7145-1f34-4ee3-9136-51b4bf243d36")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 64.77 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88e27a33-4a43-47b3-9dfb-a2603d61ddda")
-		(property "Reference" "D4"
-			(at 67.31 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55 5.1V"
-			(at 67.31 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 64.77 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d776e1cd-11ef-419b-b13f-9d2c026d870a")
-		)
-		(pin "2"
-			(uuid "f021834b-86df-404a-bae9-5806c3837f8a")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 134.62 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b87c099-e848-4961-bec9-be262c5f8591")
-		(property "Reference" "J8"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 134.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a5b8e7c-ef4e-47fd-8cc7-f22082069410")
-		)
-		(pin "1"
-			(uuid "ec3fc61d-eeec-41f7-ab50-57bd84a03e03")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX1508:MX1508")
-		(at 71.12 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c40a263-59c1-4a08-81fb-754049078017")
+		(uuid "3851d4cf-03cf-424c-9b36-419dca44f0be")
 		(property "Reference" "U6"
-			(at 70.866 128.016 0)
+			(at 163.068 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MX1508"
-			(at 70.866 130.556 0)
+		(property "Value" "L298N"
+			(at 163.068 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MX1508:SOIC127P600X177-16N"
-			(at 71.12 129.54 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical"
+			(at 166.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 129.54 0)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
+			(at 168.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,163 +3588,59 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Sinotech Mixic Electronics Co., Ltd"
-			(at 71.12 129.54 0)
+		(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1508"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            \n                        \n"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "ad57a58a-c94d-4696-b0d4-9d0d62ccfde3")
 		)
 		(pin "13"
-			(uuid "1f3e4942-cfa4-4170-ba7c-0bbcc76ba73b")
-		)
-		(pin "2"
-			(uuid "16b8438c-81dd-474f-a447-73d55133eec1")
-		)
-		(pin "6"
-			(uuid "0f8369d1-9c3a-4ccb-87a7-7b1f0eeccf76")
+			(uuid "1990bfaf-295b-440b-8a9c-260b24b8501e")
 		)
 		(pin "1"
-			(uuid "746703f9-b552-485a-a9a3-02584c3d9615")
-		)
-		(pin "10"
-			(uuid "6d8022c2-9da4-4699-90ec-d5a1ee80652d")
-		)
-		(pin "12"
-			(uuid "86870935-40c7-4970-b6e6-f06be24f1808")
+			(uuid "a3268a1b-c2fb-4e45-ae71-5c1d8030d559")
 		)
 		(pin "5"
-			(uuid "0b02771a-3955-433c-bf41-932535368f91")
-		)
-		(pin "8"
-			(uuid "2dca34fa-10f4-479a-a816-3d6bc10b3520")
-		)
-		(pin "11"
-			(uuid "e28829f0-a6db-494e-9421-ad1d00a20387")
-		)
-		(pin "4"
-			(uuid "36b4f7c0-00bb-4364-9398-adc5d405ebb3")
-		)
-		(pin "16"
-			(uuid "42b3cda4-0052-49c2-a01e-e1ef6d6c4c17")
-		)
-		(pin "15"
-			(uuid "d5677475-3e96-4e38-94b5-815d690286a0")
-		)
-		(pin "9"
-			(uuid "a23b7591-e4e8-421d-b69b-694611844f2b")
-		)
-		(pin "3"
-			(uuid "c5bf9626-d71a-415f-912c-50a08e0d98e0")
+			(uuid "072c1a3d-4d99-4a76-9ce0-d8866c99389d")
 		)
 		(pin "7"
-			(uuid "2f6bcc26-cc52-47f8-91ab-4d67ab6a0558")
+			(uuid "0dd7f23a-2769-4fbc-a003-3fd7db90fd8b")
+		)
+		(pin "6"
+			(uuid "39ce2997-9361-4878-a573-05271b0c3f11")
+		)
+		(pin "3"
+			(uuid "7ea19fa3-b32e-47df-9adf-9d8c55335183")
+		)
+		(pin "4"
+			(uuid "b465a68f-94c7-432a-a815-18cf512d7f99")
+		)
+		(pin "14"
+			(uuid "15919b94-2a26-449f-8ce9-3170b7659c9d")
+		)
+		(pin "2"
+			(uuid "9f337b61-cf0e-48b0-9414-a7940696b50b")
+		)
+		(pin "12"
+			(uuid "5b0286ed-d24a-480d-8b5c-3c59310f7fdd")
+		)
+		(pin "10"
+			(uuid "467a12ca-22b8-48b1-b1ce-483b5d97d683")
+		)
+		(pin "11"
+			(uuid "1da1f162-7cb6-487d-b03c-c322860e7e20")
+		)
+		(pin "15"
+			(uuid "8d56edab-e003-4d82-a411-1c6c9ffdd3fd")
+		)
+		(pin "9"
+			(uuid "1cff7aca-bf21-4451-8463-53c2a76af086")
+		)
+		(pin "8"
+			(uuid "53a1ecb1-9ad3-44e4-ba87-4da93c5f916d")
 		)
 		(instances
 			(project "controllerForVehicle"
@@ -4441,33 +3652,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 127 34.29 180)
+		(lib_id "Device:D_Small")
+		(at 198.12 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e81e5bd-6c7a-48ed-a314-2477a821e0f0")
-		(property "Reference" "J6"
-			(at 127 25.4 0)
+		(uuid "39d6ca31-80bf-4904-94fc-a653f72538f8")
+		(property "Reference" "D16"
+			(at 209.804 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 127 27.94 0)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 209.804 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 34.29 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 198.12 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +3688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 34.29 0)
+			(at 198.12 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,8 +3696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 34.29 0)
+		(property "Description" "Diode, small symbol"
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,58 +3705,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5bc07f3c-e232-46ed-b571-74a63b4b3762")
-		)
-		(pin "1"
-			(uuid "c5f18b26-698c-4cfe-a948-21b146bfe8e3")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX1508:MX1508")
-		(at 63.5 76.2 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9151d43a-41fe-4ba1-9a0c-c7098317e2fe")
-		(property "Reference" "U4"
-			(at 62.992 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1508"
-			(at 62.992 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX1508:SOIC127P600X177-16N"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 76.2 0)
+		(property "Sim.Device" "D"
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,296 +3714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Sinotech Mixic Electronics Co., Ltd"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1508"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            \n                        \n"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "1c163190-7dfb-4fd9-831f-c518e406b192")
-		)
-		(pin "13"
-			(uuid "d5cd037b-e2e3-4179-9b11-4c291f555a73")
-		)
-		(pin "2"
-			(uuid "c74382a8-afae-4ba2-88ae-60e2779f505c")
-		)
-		(pin "6"
-			(uuid "0f8369d1-9c3a-4ccb-87a7-7b1f0eeccf77")
-		)
-		(pin "1"
-			(uuid "c8aaecf6-ec44-4ff1-ae02-93a167bd783e")
-		)
-		(pin "10"
-			(uuid "6d8022c2-9da4-4699-90ec-d5a1ee80652e")
-		)
-		(pin "12"
-			(uuid "86870935-40c7-4970-b6e6-f06be24f1809")
-		)
-		(pin "5"
-			(uuid "0b02771a-3955-433c-bf41-932535368f92")
-		)
-		(pin "8"
-			(uuid "2dca34fa-10f4-479a-a816-3d6bc10b3521")
-		)
-		(pin "11"
-			(uuid "e28829f0-a6db-494e-9421-ad1d00a20388")
-		)
-		(pin "4"
-			(uuid "8c7268d1-3b28-4c84-b19f-3b1afe7ba531")
-		)
-		(pin "16"
-			(uuid "ba63bae3-fb12-4bab-8cf2-abf88786c544")
-		)
-		(pin "15"
-			(uuid "9808ddac-3cb2-489a-8684-b73880676176")
-		)
-		(pin "9"
-			(uuid "a23b7591-e4e8-421d-b69b-694611844f2c")
-		)
-		(pin "3"
-			(uuid "f05896ca-5e15-4642-b42c-a770a40b58d4")
-		)
-		(pin "7"
-			(uuid "2f6bcc26-cc52-47f8-91ab-4d67ab6a0559")
-		)
-		(instances
-			(project ""
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93f8ef7f-7bd4-4590-8926-ee655e11c1c9")
-		(property "Reference" "#PWR015"
-			(at 187.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "459c2de5-f9e4-4a99-8e53-a310bc8e7dbb")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 91.44 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96350dad-8e12-4873-b3ad-4159fd6c136c")
-		(property "Reference" "J14"
-			(at 93.98 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 93.98 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 128.27 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,15 +3724,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b1a71e6a-f0b7-4452-b0a9-63dd5ab78da4")
+			(uuid "ac7956f5-acb6-4b5a-97e1-0d618e3b16f3")
 		)
 		(pin "1"
-			(uuid "07cc5c4f-4b3d-4a92-90f3-600408856ca9")
+			(uuid "d11eb5da-ef95-439a-be70-8d0dbf225787")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J14")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4866,16 +3740,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 166.37 0)
+		(at 88.9 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2e93a0e-2dfd-4031-bfe2-94f6d2830e55")
+		(uuid "3be63634-ac40-435d-abb0-d2c7229c3abf")
 		(property "Reference" "#PWR016"
-			(at 86.36 172.72 0)
+			(at 88.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,16 +3758,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 167.6399 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 166.37 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 166.37 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 166.37 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +3793,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0afd8c71-da65-4c1a-a80f-5fdba9fc8660")
+			(uuid "d3361d23-5ea3-497b-a3af-6db08a71e78d")
 		)
 		(instances
 			(project "controllerForVehicle"
@@ -4932,253 +3805,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MX1508:MX1508")
-		(at 172.72 49.53 0)
+		(lib_id "Device:D_Small")
+		(at 190.5 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4a5d3ed-44d9-46e0-b0ab-af68f85bb76a")
-		(property "Reference" "U5"
-			(at 172.466 48.006 0)
+		(uuid "449a6755-e080-4873-8511-ba54eec57a30")
+		(property "Reference" "D12"
+			(at 189.992 20.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MX1508"
-			(at 172.466 50.546 0)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 189.992 23.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MX1508:SOIC127P600X177-16N"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Sinotech Mixic Electronics Co., Ltd"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1508"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            \n                        \n"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "20dbbe7b-4c30-499f-8e22-036e86aab967")
-		)
-		(pin "13"
-			(uuid "40775b84-d685-4d59-a1ce-b7a77573a3d0")
-		)
-		(pin "2"
-			(uuid "663172ff-1095-4724-a000-a621f498c021")
-		)
-		(pin "6"
-			(uuid "0f8369d1-9c3a-4ccb-87a7-7b1f0eeccf79")
-		)
-		(pin "1"
-			(uuid "26a56c21-8c95-4e95-967a-1a69ff96b469")
-		)
-		(pin "10"
-			(uuid "6d8022c2-9da4-4699-90ec-d5a1ee806530")
-		)
-		(pin "12"
-			(uuid "86870935-40c7-4970-b6e6-f06be24f180b")
-		)
-		(pin "5"
-			(uuid "0b02771a-3955-433c-bf41-932535368f94")
-		)
-		(pin "8"
-			(uuid "2dca34fa-10f4-479a-a816-3d6bc10b3523")
-		)
-		(pin "11"
-			(uuid "e28829f0-a6db-494e-9421-ad1d00a2038a")
-		)
-		(pin "4"
-			(uuid "ef053cc0-7f8a-4e06-b00b-a84dec736722")
-		)
-		(pin "16"
-			(uuid "b20bae0a-45cd-4858-b424-1ef35f70b090")
-		)
-		(pin "15"
-			(uuid "088c9992-5ec3-42be-b8b3-e040dec0392f")
-		)
-		(pin "9"
-			(uuid "a23b7591-e4e8-421d-b69b-694611844f2e")
-		)
-		(pin "3"
-			(uuid "7c22a30c-0519-4132-bc45-27f72d5986f3")
-		)
-		(pin "7"
-			(uuid "2f6bcc26-cc52-47f8-91ab-4d67ab6a055b")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aac7b61a-ee18-4cfd-a29a-7ecf12656f2e")
-		(property "Reference" "J11"
-			(at 25.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 25.4 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 114.3 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 190.5 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +3841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 114.3 0)
+			(at 190.5 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,8 +3849,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 114.3 0)
+		(property "Description" "Diode, small symbol"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,15 +3877,189 @@
 			)
 		)
 		(pin "2"
-			(uuid "0888ae9b-01a4-498e-848c-77e5a4edcca8")
+			(uuid "3fbc6f84-e1e9-467a-a6d7-7adbd5fa9d64")
 		)
 		(pin "1"
-			(uuid "274c84e7-0d69-47fb-a4ed-6c8c87423fa9")
+			(uuid "ddb3787d-0648-4e21-8cd8-67523079ad51")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J11")
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 83.82 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46cbc821-77fe-4dfd-913e-a609bdc14650")
+		(property "Reference" "D9"
+			(at 94.996 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 94.996 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 83.82 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba4518b4-0f11-43f4-a379-dfcb8be00931")
+		)
+		(pin "1"
+			(uuid "986e1851-300f-4723-a83e-d8052048178e")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 80.01 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d7ab82f-5ecb-479c-9779-9c1c12af40ea")
+		(property "Reference" "D8"
+			(at 94.488 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 94.488 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 80.01 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea92df56-aab9-46b1-954f-0c7a036568aa")
+		)
+		(pin "1"
+			(uuid "d3c9ba82-f438-4980-86e2-ee55d67e2dbc")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5221,16 +4067,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 44.45 25.4 0)
+		(at 88.9 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af3a5642-7ec2-4c5f-af20-db6800fd7249")
+		(uuid "58e66d7a-39c6-4f78-ba46-d033d8f60870")
 		(property "Reference" "C22"
-			(at 46.99 23.5838 0)
+			(at 91.694 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,8 +4083,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u 16V"
-			(at 46.99 26.1238 0)
+		(property "Value" "220uF 35V"
+			(at 91.44 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,8 +4092,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
-			(at 44.45 25.4 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +4102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 25.4 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +4111,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 44.45 25.4 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,10 +4120,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f3487fb-58c7-4c98-b444-2edba2086a0a")
+			(uuid "9a08831d-5be9-4fb4-9666-6a9d985238b8")
 		)
 		(pin "2"
-			(uuid "51b4e17a-7e55-4025-9fac-fdbabdc59a28")
+			(uuid "d0af9403-eb8e-491b-9bd4-f9abab17ff4a")
 		)
 		(instances
 			(project "controllerForVehicle"
@@ -5290,35 +4135,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 30.48 25.4 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 106.68 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b40e2506-9507-4ed6-94e9-90d7dded869b")
-		(property "Reference" "C21"
-			(at 33.02 23.5838 0)
+		(uuid "5a23015d-b750-42be-985f-f59cbc7ebe31")
+		(property "Reference" "J15"
+			(at 106.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "47u 16V"
-			(at 33.02 26.1238 0)
+		(property "Value" "Conn_01x02"
+			(at 106.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
-			(at 30.48 25.4 0)
+		(property "Footprint" ""
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +4169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 25.4 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,8 +4177,76 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 30.48 25.4 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd543721-3597-48b0-a5d6-291f54309a77")
+		)
+		(pin "1"
+			(uuid "aa1d6f80-e23a-40d5-9700-9972e0215751")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c902950-0559-4214-acf1-3ca3682f9d34")
+		(property "Reference" "#PWR032"
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.864 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,32 +4255,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcf10985-a63c-43d2-8bd3-e170f5b60eee")
-		)
-		(pin "2"
-			(uuid "147dc9e2-72c6-4cbf-9234-fa64d16e56d1")
+			(uuid "0f84041a-a98c-4d3a-819c-533ae08cf494")
 		)
 		(instances
-			(project ""
+			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "C21")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 166.37 24.13 270)
+		(lib_id "Device:D_Small")
+		(at 80.01 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb1bedc6-5b31-48a0-af95-7c8ca988c653")
-		(property "Reference" "D3"
-			(at 168.91 22.8599 90)
+		(uuid "692dfbdf-39a8-4de1-a26c-2506b074e353")
+		(property "Reference" "D4"
+			(at 95.758 22.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,8 +4284,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55 5.1V"
-			(at 168.91 25.3999 90)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 95.758 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +4294,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 166.37 24.13 90)
+			(at 80.01 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +4303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 24.13 90)
+			(at 80.01 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,8 +4311,182 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode, small symbol"
-			(at 166.37 24.13 0)
+		(property "Description" "Diode, small symbol"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a074c24b-a560-4d40-beed-7b816bb62e32")
+		)
+		(pin "1"
+			(uuid "07cb4954-7562-4232-88af-8a85d50f8651")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 198.12 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75d7476f-6bf5-4115-8a68-1ca5b997d249")
+		(property "Reference" "D17"
+			(at 209.296 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 209.296 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 198.12 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60e259fe-f6e4-4913-ac73-e77c22354d84")
+		)
+		(pin "1"
+			(uuid "29ff5bf0-a728-47ec-b73e-43bd8de7f579")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b82f815-815d-463b-b7eb-0fcb56dc2926")
+		(property "Reference" "#PWR033"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,10 +4495,892 @@
 			)
 		)
 		(pin "1"
-			(uuid "7232ee53-a29c-4c38-b2fb-73cb001d2214")
+			(uuid "97dce045-b551-45e1-9512-83f4ee2cbe03")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 190.5 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80e3e4d6-8a5c-4cf4-8913-8b08433a1cf4")
+		(property "Reference" "D13"
+			(at 188.722 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 188.722 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 190.5 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c8b854d2-89ec-403c-99d4-b56c20788552")
+			(uuid "b118bf76-e3f4-41fa-8499-2ac2d26f81cc")
+		)
+		(pin "1"
+			(uuid "20aa5eb3-4961-45ed-8bdb-ca137958e346")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 217.17 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d6db76b-fd21-417b-aab9-a2340e78a0d9")
+		(property "Reference" "J9"
+			(at 222.25 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 223.774 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e01dee35-e14c-4cf9-abf1-7fb37bed87b4")
+		)
+		(pin "1"
+			(uuid "d2d40ca9-e989-4b3c-a07f-58fa51342479")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 186.69 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e4ea421-44e1-43cf-bc29-3cd2a2e76be0")
+		(property "Reference" "D10"
+			(at 170.688 20.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 170.688 23.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 186.69 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa73cc71-7df8-4998-85e3-2b9ac92806ce")
+		)
+		(pin "1"
+			(uuid "1c15fc20-0814-42b7-89aa-02b4d64a4d52")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 102.87 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "954cb7f0-a507-473b-99b6-17a5289c66ae")
+		(property "Reference" "J4"
+			(at 107.95 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 109.474 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ba22e0d-f832-4e8c-9475-5317f7e60560")
+		)
+		(pin "1"
+			(uuid "7714217e-4f78-466b-a5c5-f01e29831cec")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 140.97 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9841c55d-a7ef-4844-b058-fb02e1e30685")
+		(property "Reference" "J8"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 140.97 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5299059-ea8d-4389-b1bf-e4f2e5f48522")
+		)
+		(pin "1"
+			(uuid "341e5343-7bea-493b-8263-0b22b1e59a30")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:L298N")
+		(at 54.61 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a29fbe9-0e2e-4cc3-9fdd-a33419a9a139")
+		(property "Reference" "U9"
+			(at 52.578 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L298N"
+			(at 52.578 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "458b73f0-6bad-43f8-a26e-295ab59e4d07")
+		)
+		(pin "1"
+			(uuid "540099a5-4cf7-4fe6-8fee-bfd069dc8208")
+		)
+		(pin "5"
+			(uuid "8b63db47-17fb-4980-8e87-5db4dba3dbd1")
+		)
+		(pin "7"
+			(uuid "9b7f15f3-8026-4f93-838b-aaf406c53f01")
+		)
+		(pin "6"
+			(uuid "c0732800-630d-4961-8195-9914ddd4067d")
+		)
+		(pin "3"
+			(uuid "29caf716-6654-4abf-8f17-5ba0c5c8e686")
+		)
+		(pin "4"
+			(uuid "8c3bf6cd-44c3-4d62-ab9d-f99c9c57dddf")
+		)
+		(pin "14"
+			(uuid "80c7e7e7-9b74-4e8c-b3ef-442d6e611958")
+		)
+		(pin "2"
+			(uuid "f2df776e-658c-4471-bb25-c7d3ccacd486")
+		)
+		(pin "12"
+			(uuid "ecaf4bd4-46cb-4fbf-b1a3-f3028a061083")
+		)
+		(pin "10"
+			(uuid "53e64928-e22e-4c7e-8223-b9c92daad6be")
+		)
+		(pin "11"
+			(uuid "0dbd52bf-0425-40e2-be7e-5df5dc09cf80")
+		)
+		(pin "15"
+			(uuid "7c24dff4-07a6-4ba7-9994-0163b491a010")
+		)
+		(pin "9"
+			(uuid "d82ac09e-ee6c-4759-a157-93318a162e1b")
+		)
+		(pin "8"
+			(uuid "42ed421e-edab-4bec-a4fa-341d97eb9afb")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 140.97 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b472959-7136-411d-a76a-72a642b5a7f9")
+		(property "Reference" "J7"
+			(at 140.97 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f31e2e-a8aa-4eb5-9f3d-fc78b0b2f99d")
+		)
+		(pin "4"
+			(uuid "c0c57bd6-9a3e-48a3-9deb-dbc5a16464eb")
+		)
+		(pin "2"
+			(uuid "1ca8aba1-d5e3-4dd9-be71-e42268567531")
+		)
+		(pin "3"
+			(uuid "94e04983-79dd-43c0-aed9-fbf5c923d48d")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 83.82 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cf1d28e-1dc3-47c6-9ab3-318b59af833f")
+		(property "Reference" "D5"
+			(at 95.504 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 95.504 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 83.82 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd24b96d-8633-41b7-9e20-7332e5e9bdc9")
+		)
+		(pin "1"
+			(uuid "45cd6a27-7d39-4512-b72e-269e613d382b")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 106.68 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e88cc71-46c7-4b78-aa2a-2e9aaf7d35df")
+		(property "Reference" "J14"
+			(at 111.76 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 113.284 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "184cf7ab-e281-47c6-b520-2a30143e64bd")
+		)
+		(pin "1"
+			(uuid "d69fae8a-3721-4cf6-925e-256a4b4fb453")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 83.82 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aae1c8dd-c491-4c98-91b6-4e30358d368c")
+		(property "Reference" "D22"
+			(at 99.568 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 99.568 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 83.82 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 83.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1d77188-cc29-4ac0-85e5-ff3c38654c0d")
+		)
+		(pin "1"
+			(uuid "f53851ed-2b42-4fea-b9d4-6a1e69bfe36c")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 76.2 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19be44d-2288-4eee-a1d6-ee8d6c762c95")
+		(property "Reference" "D3"
+			(at 75.692 21.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 75.692 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc61f2de-8955-46db-a445-fa1fbf04afd7")
+		)
+		(pin "1"
+			(uuid "bfce18ed-9adf-4a8e-a4cd-0326d8098321")
 		)
 		(instances
 			(project "controllerForVehicle"
@@ -5430,253 +5392,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MX1508:MX1508")
-		(at 71.12 156.21 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfa8572c-1155-4c50-b85b-de59b435c1b6")
-		(property "Reference" "U6"
-			(at 70.612 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1508"
-			(at 70.612 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX1508:SOIC127P600X177-16N"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Sinotech Mixic Electronics Co., Ltd"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.77mm"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=eda"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1508/Sinotech+Mixic+Electronics+Co.%252C+Ltd/view-part/?ref=snap"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1508"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            \n                        \n"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Shenzhen Guanghui Electronics"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "1c163190-7dfb-4fd9-831f-c518e406b194")
-		)
-		(pin "13"
-			(uuid "d5cd037b-e2e3-4179-9b11-4c291f555a75")
-		)
-		(pin "2"
-			(uuid "c74382a8-afae-4ba2-88ae-60e2779f505e")
-		)
-		(pin "6"
-			(uuid "a8c56dbc-40c6-4ebc-bedb-9e8225e4b2b5")
-		)
-		(pin "1"
-			(uuid "c8aaecf6-ec44-4ff1-ae02-93a167bd7840")
-		)
-		(pin "10"
-			(uuid "c736f278-d243-457d-a43c-77efcf289a6d")
-		)
-		(pin "12"
-			(uuid "fc64f112-074c-4ead-ae33-2256d0fe7327")
-		)
-		(pin "5"
-			(uuid "39b19c9a-b212-4d16-983f-4db94a72a5ae")
-		)
-		(pin "8"
-			(uuid "94b71877-3430-43b4-bec6-3bce50d0e071")
-		)
-		(pin "11"
-			(uuid "227b3517-3d25-4d18-9ac6-2d2e8b271637")
-		)
-		(pin "4"
-			(uuid "8c7268d1-3b28-4c84-b19f-3b1afe7ba533")
-		)
-		(pin "16"
-			(uuid "ba63bae3-fb12-4bab-8cf2-abf88786c546")
-		)
-		(pin "15"
-			(uuid "9808ddac-3cb2-489a-8684-b73880676178")
-		)
-		(pin "9"
-			(uuid "f6d3f837-604d-496d-9833-9f514936b18d")
-		)
-		(pin "3"
-			(uuid "f05896ca-5e15-4642-b42c-a770a40b58d6")
-		)
-		(pin "7"
-			(uuid "043b06c0-1d27-4ee3-ae17-0c4cdb1dbff2")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 17.78 34.29 180)
+		(lib_id "Device:D_Small")
+		(at 87.63 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfdcca1b-90ce-42a2-afd5-dbad64d188ad")
-		(property "Reference" "J2"
-			(at 17.78 25.4 0)
+		(uuid "b5718573-7a7c-440a-84a3-178f8667f975")
+		(property "Reference" "D25"
+			(at 98.806 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 17.78 27.94 0)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 98.806 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 17.78 34.29 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 87.63 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 34.29 0)
+			(at 87.63 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,8 +5436,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 17.78 34.29 0)
+		(property "Description" "Diode, small symbol"
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,10 +5464,699 @@
 			)
 		)
 		(pin "2"
-			(uuid "23c36e8c-fa85-4070-8f16-311a3c81312b")
+			(uuid "5ee75473-dc19-4096-a5ec-62c52209c5f8")
 		)
 		(pin "1"
-			(uuid "357ec7fd-a7d7-4a0b-870d-c166206d6996")
+			(uuid "e95f30da-8c71-4b5e-958f-194e303bc418")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 30.48 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9816783-f5a0-4c7e-bd4a-176f01db580b")
+		(property "Reference" "J13"
+			(at 30.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e2691cd-6208-4e07-8fbf-5d2d0b4c0027")
+		)
+		(pin "1"
+			(uuid "a57ba3b8-7e20-44ef-b4dc-2d5a089fdb02")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 203.2 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba0d0119-7dc4-41a7-842d-04ec2a5657ab")
+		(property "Reference" "C24"
+			(at 205.994 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF 35V"
+			(at 205.74 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79f4e66d-5c9d-4ffc-b971-25490ac30ce0")
+		)
+		(pin "2"
+			(uuid "c6eecd5e-f82b-414e-9de3-38858f352dc6")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 194.31 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beee3a8c-8176-476e-b40c-b5d2a9d5292e")
+		(property "Reference" "D14"
+			(at 210.058 20.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 210.058 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 194.31 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a35099c-2561-4647-ab81-d86b2517fbcd")
+		)
+		(pin "1"
+			(uuid "d9614c5c-efa3-4999-8228-c2ccb59d6ba2")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf60666c-58c4-4e44-98bb-aed6de9a05ca")
+		(property "Reference" "#PWR015"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.054 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5cc0e22-ea84-4711-88b3-146b363f5343")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 80.01 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ee9383-26cb-4a2b-ac36-258d97e6d7c8")
+		(property "Reference" "D20"
+			(at 79.502 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 79.502 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 80.01 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1af42a0-73e8-45e6-82b8-e0c33549eb24")
+		)
+		(pin "1"
+			(uuid "9d20f24f-e246-47c9-9e1f-f21f2847acc4")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 194.31 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4068a99-68c2-4e21-b2f3-ff129b16f047")
+		(property "Reference" "D15"
+			(at 208.788 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 208.788 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 194.31 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "201cb5a2-8c12-46ba-b8d4-9d700210a918")
+		)
+		(pin "1"
+			(uuid "1fe4bd66-0368-46cf-8c4a-4a5fa50ba1c5")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 217.17 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c433814f-2c5a-4640-a146-349e221e7389")
+		(property "Reference" "J10"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a19a4b48-6dae-42e5-955d-641c479a0215")
+		)
+		(pin "1"
+			(uuid "724d2baa-81ba-4691-bd30-3761d5597e4e")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 76.2 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c94eb0e6-7d93-455c-99c5-44f6fe4f5843")
+		(property "Reference" "D18"
+			(at 60.198 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 60.198 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 76.2 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3b7d640-7c54-4a39-bc3e-bf169bb32268")
+		)
+		(pin "1"
+			(uuid "aa22bce5-a74e-4cc3-b4e9-ff2474cd7927")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 26.67 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9d5d1e6-58dd-4afd-ad2e-33758318b946")
+		(property "Reference" "J2"
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "983ecc20-c6ac-466c-b8cd-b3196e2ea29a")
+		)
+		(pin "4"
+			(uuid "acd8f9db-4260-47ed-ba39-630d22535ce0")
+		)
+		(pin "2"
+			(uuid "d53ec9bb-5f68-4ab7-b5e1-b081608e192b")
+		)
+		(pin "3"
+			(uuid "d17089c2-0471-4c10-a0fe-36482e173258")
 		)
 		(instances
 			(project ""
@@ -5719,16 +6169,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 86.36 0)
+		(at 165.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d254e3-9ae7-483b-b2d0-196601e7cb5d")
-		(property "Reference" "#PWR014"
-			(at 78.74 92.71 0)
+		(uuid "d3ef15ae-05ee-4d41-85ac-53fc2f2c96d3")
+		(property "Reference" "#PWR018"
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +6186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 91.44 0)
+			(at 165.354 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +6194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 86.36 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +6203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 86.36 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +6212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 86.36 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,115 +6221,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "24d9dcda-414b-4d39-92c1-1780e237774b")
-		)
-		(instances
-			(project ""
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0b316f0-fe55-4ae0-a95c-f2dcde4d6687")
-		(property "Reference" "J9"
-			(at 195.58 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 195.58 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 193.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea6434b5-a652-4a8d-a1f5-72537ec40519")
-		)
-		(pin "1"
-			(uuid "6c08dcb0-9c1d-4af0-b191-cac8785f4461")
+			(uuid "a3830edf-fc83-4643-a8ef-c4d5c21279b2")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "J9")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 38.1 19.05 90)
+		(lib_id "Device:D_Small")
+		(at 76.2 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e69eebe8-729b-4e36-913e-f119e6f262db")
-		(property "Reference" "R13"
-			(at 38.1 13.97 90)
+		(uuid "e2c0b036-4909-4a75-a28d-2543b13ef823")
+		(property "Reference" "D7"
+			(at 74.422 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 38.1 16.51 90)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 74.422 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 38.1 19.05 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 76.2 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +6269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 19.05 0)
+			(at 76.2 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,8 +6277,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 38.1 19.05 0)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,15 +6305,102 @@
 			)
 		)
 		(pin "2"
-			(uuid "7b616f66-1c2d-4926-8834-5943ce0aee7d")
+			(uuid "94e05ff7-91a5-4c97-a73a-5b9258ca396a")
 		)
 		(pin "1"
-			(uuid "8d6a4e06-2c0d-4671-9259-59f6f2bac5d6")
+			(uuid "5ccd61b5-6988-4dfd-978a-48a6ebcfca59")
 		)
 		(instances
-			(project ""
+			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "R13")
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 76.2 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e43135ff-134d-4680-be62-1b812ae18cdd")
+		(property "Reference" "D19"
+			(at 58.928 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34-DO214AB-HT"
+			(at 58.928 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 76.2 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68e2234c-0f8e-403a-b654-42245908f67c")
+		)
+		(pin "1"
+			(uuid "db241557-0037-4ada-9370-90ef0791d6ca")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5923,16 +6408,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 52.07 105.41 0)
+		(at 92.71 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f70c8f66-1bae-4528-9423-5034af125b7b")
+		(uuid "e72a49e1-c704-4ce3-876c-f202e18eba60")
 		(property "Reference" "C26"
-			(at 54.61 103.5938 0)
+			(at 95.504 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,8 +6424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u 16V"
-			(at 54.61 106.1338 0)
+		(property "Value" "220uF 35V"
+			(at 95.25 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,8 +6433,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
-			(at 52.07 105.41 0)
+		(property "Footprint" ""
+			(at 92.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 105.41 0)
+			(at 92.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6452,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 52.07 105.41 0)
+			(at 92.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,10 +6461,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "644f7508-6bc4-4bb3-bd38-c35704aaf9e6")
+			(uuid "b3e6868b-c132-4433-9e41-fc3e40ca366b")
 		)
 		(pin "2"
-			(uuid "7e2f29db-5fb0-4872-983b-10cecfb97a35")
+			(uuid "ece074a0-cb49-496e-a2bb-83b039fd372a")
 		)
 		(instances
 			(project "controllerForVehicle"
@@ -5992,33 +6476,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 147.32 19.05 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fece33f7-2168-4951-8d7e-d46778ed3f2f")
-		(property "Reference" "R14"
-			(at 147.32 13.97 90)
+		(uuid "ef6d69c5-7d6e-4ee8-a1b6-4069d20b9b49")
+		(property "Reference" "J1"
+			(at 26.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 147.32 16.51 90)
+		(property "Value" "Conn_01x02"
+			(at 26.67 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 147.32 19.05 0)
+		(property "Footprint" ""
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 19.05 0)
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,8 +6518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 147.32 19.05 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,15 +6528,155 @@
 			)
 		)
 		(pin "2"
-			(uuid "05cb1e41-b0ec-4577-9f60-71d7950b81b5")
+			(uuid "04877222-2a2a-492e-915c-3108354f0205")
 		)
 		(pin "1"
-			(uuid "36e921dd-84be-4aa9-b647-ac262deb6b94")
+			(uuid "90383ee4-878a-4083-9071-4fd61e3e753b")
+		)
+		(instances
+			(project ""
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 30.48 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0413ee2-5581-4239-946a-eafce15c64dd")
+		(property "Reference" "J12"
+			(at 30.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 30.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0502dfdb-6760-4ffe-959c-1abe43c5fd86")
+		)
+		(pin "4"
+			(uuid "44a16f8c-a47a-423c-a97a-3c5dfdf2deca")
+		)
+		(pin "2"
+			(uuid "1f0b8e17-bf06-4a5c-946a-293d552a5a1b")
+		)
+		(pin "3"
+			(uuid "9ac22533-2e49-4e83-9d00-fdca796989ff")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "R14")
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 102.87 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9699c18-22b5-4cd4-aa58-cf222df08f98")
+		(property "Reference" "J5"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3521cf5f-a36f-4966-b92b-d10f2519478e")
+		)
+		(pin "1"
+			(uuid "e5edebab-9eb3-47cd-9642-4836343c62cd")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "J5")
 					(unit 1)
 				)
 			)

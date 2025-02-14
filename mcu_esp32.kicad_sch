@@ -4372,7 +4372,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PCM_Elektuur:T-BJT-NPN")
 		(lib_id "PCM_Elektuur:T-BJT-NPN")
 		(at 38.1 132.08 0)
 		(mirror x)
@@ -5334,7 +5333,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PCM_Elektuur:T-BJT-NPN")
 		(lib_id "PCM_Elektuur:T-BJT-NPN")
 		(at 38.1 115.57 0)
 		(unit 1)

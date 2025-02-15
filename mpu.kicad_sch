@@ -706,6 +706,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 36.83) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0797b915-1d06-4df0-9ace-34fa0381b945")
+	)
+	(wire
+		(pts
 			(xy 29.21 24.13) (xy 45.72 24.13)
 		)
 		(stroke
@@ -746,6 +756,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 41.91) (xy 59.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91df3286-0c89-45db-8f4f-9c34e2a88844")
+	)
+	(wire
+		(pts
 			(xy 54.61 33.02) (xy 62.23 33.02)
 		)
 		(stroke
@@ -753,16 +773,6 @@
 			(type default)
 		)
 		(uuid "a3d002c4-cb71-465d-95c4-7ab9bca23274")
-	)
-	(wire
-		(pts
-			(xy 59.69 25.4) (xy 59.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae578d7f-5532-4f4d-81f5-1d8f80532c85")
 	)
 	(wire
 		(pts
@@ -776,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 20.32) (xy 62.23 25.4)
+			(xy 62.23 24.13) (xy 62.23 25.4)
 		)
 		(stroke
 			(width 0)
@@ -872,29 +882,29 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 59.69 20.32 90)
+		(at 59.69 43.18 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8c01053b-e907-4773-9f17-f3ead1e4b41e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 13.8272 90)
+			(at 59.69 49.6728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 62.23 20.32 90)
+		(at 62.23 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -904,7 +914,7 @@
 		)
 		(uuid "c8bf7eb0-5c2f-4246-9060-86c0b81cb221")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 13.8272 90)
+			(at 62.23 17.6372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 22.86 180)
+		(at 59.69 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1354,7 +1364,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8a7419a-272a-4be8-8c52-2fd903a1e3e2")
 		(property "Reference" "R48"
-			(at 62.23 21.5899 0)
+			(at 62.23 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1373,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 24.1299 0)
+			(at 62.23 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1382,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 22.86 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 22.86 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1400,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 59.69 22.86 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

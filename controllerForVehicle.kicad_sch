@@ -5,9 +5,9 @@
 	(uuid "f177fb06-71dc-4865-9331-a828b12c2bf7")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "Yapılacaklar\nMPU +\nServo Kontrolcü +\nSTM32 +\nESP32 +\nKonektörler -\nHaberleşme Bağlantıları -\nDC Kontrolcü + \nGüç +\n"
+	(text_box "Yapılacaklar\nMPU +\nServo Kontrolcü +\nSTM32 +\nESP32 +\nKonektörler +\nHaberleşme Bağlantıları +\nDC Kontrolcü + \nGüç +\nGPIO Expander + \n\nBloklarla Devre Şeması -\n"
 		(exclude_from_sim no)
-		(at 133.35 15.24 0)
+		(at 146.05 95.25 0)
 		(size 34.29 26.67)
 		(stroke
 			(width 0)
@@ -296,6 +296,44 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 15.24)
+		(size 26.67 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf99d41f-154f-4525-9df8-a364b4903864")
+		(property "Sheetname" "gpio_exp"
+			(at 130.81 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio_exp.kicad_sch"
+			(at 130.81 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7"
+					(page "10")
 				)
 			)
 		)

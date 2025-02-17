@@ -2184,8 +2184,32 @@
 		(uuid "f4441dc1-6922-46ee-a930-63c01b286cf3")
 	)
 	(no_connect
+		(at 214.63 40.64)
+		(uuid "2934f114-665f-46a8-b0f7-de7eb4183bd9")
+	)
+	(no_connect
+		(at 214.63 45.72)
+		(uuid "37d44148-b751-42c9-ab27-492d3200aeb3")
+	)
+	(no_connect
+		(at 21.59 35.56)
+		(uuid "741ad169-8920-45c7-8c5c-b30c99006085")
+	)
+	(no_connect
+		(at 52.07 86.36)
+		(uuid "7b63aeac-1ba7-4eb6-a570-80a186b7a27f")
+	)
+	(no_connect
+		(at 52.07 83.82)
+		(uuid "93fa8dd0-7aea-4aee-9885-ed7bd668a59b")
+	)
+	(no_connect
 		(at 189.23 30.48)
 		(uuid "e7735f5d-6601-4e32-a28c-f45e5cbf48c0")
+	)
+	(no_connect
+		(at 21.59 33.02)
+		(uuid "ff7ac7b6-0c59-4be9-a53b-d5d86b326302")
 	)
 	(wire
 		(pts
@@ -3559,28 +3583,6 @@
 			)
 		)
 	)
-	(global_label "IO23"
-		(shape input)
-		(at 52.07 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3c90069-6062-437b-bb41-f0c8d4714a35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4095 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 78.74 55.88 0)
@@ -3591,7 +3593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c39a0bb-8e5a-4d82-bcff-33de2d10eb83")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 78.74 62.23 0)
 			(effects
 				(font
@@ -3641,7 +3643,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3725,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c0dfb8-c7fe-4da7-88ae-e53c39a91be2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -3775,7 +3777,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2d20f7-fbe1-4a72-bdd5-f9edbe05a716")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 130.81 29.2099 0)
 			(effects
 				(font
@@ -3845,7 +3847,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3999,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31598972-a9fc-47aa-8064-20cc076c201c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -4049,7 +4051,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47758e30-42c7-4e9a-9c3f-286f7c048adf")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 93.98 67.31 90)
 			(effects
 				(font
@@ -4185,7 +4187,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4200,7 +4202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4935fcbf-c58d-435b-9f73-de506fd181b1")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 39.0241 20.32 0)
 			(effects
 				(font
@@ -4365,7 +4367,7 @@
 		(instances
 			(project ""
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 137.16 71.12 0)
 			(effects
 				(font
@@ -4873,7 +4875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84df35df-5463-4f18-a69e-1cc27e4b7b78")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 217.17 25.4 90)
 			(effects
 				(font
@@ -4925,7 +4927,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4940,7 +4942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "852e7454-d23f-4490-99be-b16bf3846ac4")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 123.19 73.914 90)
 			(effects
 				(font
@@ -4992,7 +4994,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5142,7 +5144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a49c7be-5d89-428c-8915-4c805bfaf2c2")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 123.19 49.53 90)
 			(effects
 				(font
@@ -5194,7 +5196,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5210,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6ffbd6-3f9a-4ed0-87c6-25dada852378")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 128.27 46.99 0)
 			(effects
 				(font
@@ -5260,7 +5262,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5428,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 83.82 40.64 0)
 			(effects
 				(font
@@ -5498,7 +5500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 137.16 54.61 0)
 			(effects
 				(font
@@ -5637,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Value" "IO0"
+		(property "Value" "EN"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -5645,7 +5647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -5697,7 +5699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e52253c4-ae36-46b1-820a-40d76c137ded")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 180.34 13.97 0)
 			(effects
 				(font
@@ -5747,7 +5749,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f44d5868-9b50-4ddc-bd02-80ea4eca0aa1")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 204.1241 91.44 0)
 			(effects
 				(font
@@ -6038,7 +6040,7 @@
 		(instances
 			(project ""
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)

@@ -782,16 +782,10 @@
 		)
 	)
 	(junction
-		(at 194.31 52.07)
+		(at 190.5 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01350626-2df6-4e2b-b8df-53bffa51d176")
-	)
-	(junction
-		(at 77.47 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05717211-05be-42ac-b0c4-9657e8aff4ae")
+		(uuid "019a5b7f-e681-4220-ab9b-edc54a206e2c")
 	)
 	(junction
 		(at 48.26 151.13)
@@ -806,16 +800,16 @@
 		(uuid "0617da02-396a-4cee-9afd-4b0baa7b7f37")
 	)
 	(junction
-		(at 198.12 31.75)
+		(at 186.69 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "098a65f0-fb23-464e-8921-63f75d2404a1")
+		(uuid "0bc57b04-178a-4972-b43b-3ca2d448576a")
 	)
 	(junction
-		(at 194.31 63.5)
+		(at 194.31 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13cc9679-8738-4cec-bcc2-7de7cf4b80f0")
+		(uuid "0eb0cd40-5d61-40d3-9cba-b8d74b7b73f3")
 	)
 	(junction
 		(at 165.1 67.31)
@@ -836,6 +830,24 @@
 		(uuid "1b757f83-d8e9-43fd-9648-e29edb10e135")
 	)
 	(junction
+		(at 73.66 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ebdebdc-a7d1-44e2-8427-de19c9bc8e53")
+	)
+	(junction
+		(at 194.31 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23cd5cc3-d438-479d-b7f4-2c20e09d038d")
+	)
+	(junction
+		(at 198.12 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25591a43-1f05-43f8-932a-b5e577e577cd")
+	)
+	(junction
 		(at 73.66 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -854,6 +866,12 @@
 		(uuid "305cfc69-2825-4987-b5cf-af77b19337d9")
 	)
 	(junction
+		(at 203.2 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4343cda8-13fb-4f8a-ada9-ebacb4a2d07b")
+	)
+	(junction
 		(at 77.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -866,34 +884,28 @@
 		(uuid "4ff0a3c1-8c70-4bdf-90f4-92e1896c1f83")
 	)
 	(junction
-		(at 198.12 63.5)
+		(at 190.5 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53b60216-e1c0-4afa-a9c0-fe1658d0b233")
+		(uuid "523ce658-b680-483b-996b-efb704f77d5a")
 	)
 	(junction
-		(at 203.2 63.5)
+		(at 69.85 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5476b487-842d-4e3a-9ae9-fcb7612457a9")
+		(uuid "52e75708-6d38-4248-a936-eae4c5bddc48")
 	)
 	(junction
-		(at 77.47 135.89)
+		(at 81.28 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5585071f-e23a-43b9-9e1c-aa3f44d6d5d4")
+		(uuid "5cce485a-6e2f-4e85-8f2b-fbf8d0bdd855")
 	)
 	(junction
-		(at 81.28 115.57)
+		(at 198.12 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "569e6f00-c0b8-4a59-9b64-f9f1f5d16da5")
-	)
-	(junction
-		(at 190.5 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bbcd7b8-7eb6-4dd6-be57-2fc90f84d651")
+		(uuid "6478a01f-b886-4f7f-9e9b-e5a545dcab2e")
 	)
 	(junction
 		(at 77.47 31.75)
@@ -902,10 +914,10 @@
 		(uuid "6737c92f-5af6-4658-aa43-04efc7e4357f")
 	)
 	(junction
-		(at 186.69 44.45)
+		(at 81.28 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73ac68c2-7aa8-4ca9-8f65-823d90cf2c35")
+		(uuid "7615a3ca-ed87-424f-bc49-ec5cec47d2be")
 	)
 	(junction
 		(at 81.28 54.61)
@@ -914,28 +926,22 @@
 		(uuid "781a8476-106a-4508-9a6f-47480cc45dd2")
 	)
 	(junction
-		(at 81.28 138.43)
+		(at 198.12 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "785c8911-6c07-4fbe-a9aa-366bdddfd6f1")
+		(uuid "833b4f43-7b07-4084-8e50-3539b0455fd8")
 	)
 	(junction
-		(at 190.5 63.5)
+		(at 77.47 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c7d6a42-3677-4501-97c0-85a3e2c41bcf")
+		(uuid "8a3814a1-2cbd-4394-a761-595252130232")
 	)
 	(junction
-		(at 198.12 54.61)
+		(at 73.66 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92dd50b1-5e33-45ae-b00d-295de6313274")
-	)
-	(junction
-		(at 81.28 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a037b721-2d2b-48b2-97ea-0a1df1b2fecf")
+		(uuid "912df176-20a9-4e04-9db9-d193036fed4b")
 	)
 	(junction
 		(at 86.36 63.5)
@@ -944,22 +950,10 @@
 		(uuid "a7a38485-6815-4e6c-b381-8921ce618c68")
 	)
 	(junction
-		(at 73.66 115.57)
+		(at 190.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abe82f21-5d4e-4213-948c-540c4f114084")
-	)
-	(junction
-		(at 77.47 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1092642-f2fe-4ea8-8eb2-199aceb1dc63")
-	)
-	(junction
-		(at 73.66 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2d0b0ab-dcc1-4e55-b783-50aaccc8e306")
+		(uuid "a7f71dbe-c637-49ff-9526-01b494f6e04f")
 	)
 	(junction
 		(at 81.28 63.5)
@@ -968,22 +962,28 @@
 		(uuid "b53f6218-3bfc-4854-a732-049c0c0d726e")
 	)
 	(junction
-		(at 69.85 115.57)
+		(at 186.69 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b850cbb8-0470-4e91-86e0-085e5f9808f0")
-	)
-	(junction
-		(at 194.31 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf6fd6d1-4ef3-4ca5-94cc-4aa61885fe18")
+		(uuid "bcc9b662-a9b7-43b0-b78a-a0449d2ef372")
 	)
 	(junction
 		(at 43.18 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3216b69-e3c6-4f40-83fa-ff4d67e899fa")
+	)
+	(junction
+		(at 194.31 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6fa78ae-a508-4018-9d31-274d8460e792")
+	)
+	(junction
+		(at 77.47 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0686ed7-5654-48b9-bfa4-0da965b9c3bf")
 	)
 	(junction
 		(at 81.28 31.75)
@@ -998,34 +998,16 @@
 		(uuid "d4b9b57e-01e1-4450-972d-7ecf3a92eede")
 	)
 	(junction
-		(at 190.5 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5d5d6f1-091e-48c7-a24b-b69e9d629290")
-	)
-	(junction
-		(at 73.66 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6012e17-2e02-4033-8baf-954d123449f9")
-	)
-	(junction
-		(at 86.36 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7274fed-f46b-463f-9038-6972d8d2302c")
-	)
-	(junction
 		(at 69.85 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d806738e-27a4-4072-bb37-4717ccd3bd8b")
+		(uuid "da4bacae-1a9e-4dfc-84eb-a3791d80f7e8")
 	)
 	(junction
-		(at 186.69 31.75)
+		(at 77.47 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e81eac6c-4de9-4111-8443-2b4aaee5a2fe")
+		(uuid "dd13e1a8-aa71-40c3-8df3-4ea53b016afb")
 	)
 	(junction
 		(at 69.85 31.75)
@@ -1033,35 +1015,23 @@
 		(color 0 0 0 0)
 		(uuid "efc74661-11ce-4e64-88d2-f16e730ed38f")
 	)
-	(wire
-		(pts
-			(xy 73.66 147.32) (xy 77.47 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "024ce9bb-4727-4445-a596-3133d4317936")
+	(junction
+		(at 81.28 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f938c6e3-739a-47ed-a56e-a271cba55a8e")
 	)
-	(wire
-		(pts
-			(xy 69.85 124.46) (xy 69.85 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026b699f-2de1-4660-9e73-2888dd79c18b")
+	(junction
+		(at 86.36 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdd2f8f7-d421-47b7-8a0b-f7b3d9e2ce31")
 	)
-	(wire
-		(pts
-			(xy 86.36 147.32) (xy 81.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a7029b-c386-45dd-852d-f4e7de233097")
+	(junction
+		(at 73.66 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fddfeaa1-12ec-4ebf-858c-cb4d62b4aa25")
 	)
 	(wire
 		(pts
@@ -1075,6 +1045,36 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 63.5) (xy 198.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c46839-9488-42d1-8c73-5b7ed77a613e")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 73.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061de6c0-6f24-4f29-8cad-94393eb9260a")
+	)
+	(wire
+		(pts
+			(xy 69.85 128.27) (xy 95.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0819bdb6-7f57-4845-923e-61adcbeba943")
+	)
+	(wire
+		(pts
 			(xy 86.36 40.64) (xy 86.36 63.5)
 		)
 		(stroke
@@ -1085,43 +1085,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 115.57) (xy 77.47 115.57)
+			(xy 81.28 119.38) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "084db33b-2c60-4021-96d1-d15a59d44e32")
-	)
-	(wire
-		(pts
-			(xy 194.31 52.07) (xy 212.09 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab25619-b515-41ad-b619-e01a9db643bd")
-	)
-	(wire
-		(pts
-			(xy 198.12 54.61) (xy 212.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdfff98-ec38-4f80-9757-1a513a761bfa")
-	)
-	(wire
-		(pts
-			(xy 69.85 147.32) (xy 73.66 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bee4fe9-d33b-4a88-b8cb-51aa7f1eead7")
+		(uuid "0a5b8be3-c2e2-48bc-ad38-13a05887292c")
 	)
 	(wire
 		(pts
@@ -1135,13 +1105,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 73.66 115.57)
+			(xy 186.69 44.45) (xy 212.09 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f3f0817-a4ab-4991-93db-d0d0b8e3a4c0")
+		(uuid "0ecfa0f1-bde6-4c1f-a227-a148f6c559f2")
 	)
 	(wire
 		(pts
@@ -1152,46 +1122,6 @@
 			(type default)
 		)
 		(uuid "119fba47-260f-4ee7-b330-7d65b6ced719")
-	)
-	(wire
-		(pts
-			(xy 190.5 31.75) (xy 194.31 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1251bf47-ec76-491c-a7a2-70dea6a19363")
-	)
-	(wire
-		(pts
-			(xy 194.31 63.5) (xy 198.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1297cb6e-7017-48a8-ae82-cc7491c793fd")
-	)
-	(wire
-		(pts
-			(xy 77.47 147.32) (xy 81.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b6db9b-f479-4f7c-8210-3a02374d7dcf")
-	)
-	(wire
-		(pts
-			(xy 180.34 46.99) (xy 190.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f88e12-641c-42e6-b857-2421c3fd5dc5")
 	)
 	(wire
 		(pts
@@ -1212,6 +1142,26 @@
 			(type default)
 		)
 		(uuid "1832e1d5-e567-4760-b530-b959fa2f2b9c")
+	)
+	(wire
+		(pts
+			(xy 69.85 124.46) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c0a8e1-5b17-494d-828a-8eb05b069245")
+	)
+	(wire
+		(pts
+			(xy 77.47 135.89) (xy 95.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b1c945-129a-4c0b-8eb8-d978975be16a")
 	)
 	(wire
 		(pts
@@ -1265,6 +1215,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 31.75) (xy 186.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219c3421-56c7-4af4-ad78-be01c5612ce5")
+	)
+	(wire
+		(pts
 			(xy 69.85 31.75) (xy 69.85 35.56)
 		)
 		(stroke
@@ -1311,27 +1271,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2813b79c-e0d7-4a72-aafa-1506397c007e")
+		(uuid "28d5b022-7532-486a-bf9b-d5348dc1e540")
 	)
 	(wire
 		(pts
-			(xy 81.28 138.43) (xy 95.25 138.43)
+			(xy 63.5 128.27) (xy 69.85 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c8ef631-a180-4baa-9e3a-1b9f8c6a89f2")
+		(uuid "3509ab48-2226-47f6-9aeb-87dc20bc5cfa")
 	)
 	(wire
 		(pts
-			(xy 190.5 46.99) (xy 212.09 46.99)
+			(xy 190.5 35.56) (xy 190.5 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "343674d6-4b6b-47d0-9026-24544e7f0da4")
+		(uuid "35133cf7-aeb7-48fa-946f-7caf1520ea7b")
 	)
 	(wire
 		(pts
@@ -1345,6 +1305,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 147.32) (xy 81.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7e1588-9256-4940-bc9b-30583f7b6eb9")
+	)
+	(wire
+		(pts
 			(xy 157.48 67.31) (xy 160.02 67.31)
 		)
 		(stroke
@@ -1352,6 +1322,26 @@
 			(type default)
 		)
 		(uuid "3dac1dcd-40c6-468a-92f3-701afae9b1ef")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3deca48f-535f-4786-bfed-131ba5acee66")
+	)
+	(wire
+		(pts
+			(xy 77.47 115.57) (xy 81.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df49536-4f46-4729-9437-a5c582298bc8")
 	)
 	(wire
 		(pts
@@ -1375,33 +1365,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 69.85 119.38)
+			(xy 73.66 119.38) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43350360-2cf9-4533-af96-a2f798f3c54b")
-	)
-	(wire
-		(pts
-			(xy 73.66 130.81) (xy 73.66 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4617f4cb-975c-4b3f-ba02-6127c56e483d")
-	)
-	(wire
-		(pts
-			(xy 194.31 35.56) (xy 194.31 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46326a8a-7942-444b-a51c-aa9865470b42")
+		(uuid "43e17481-adb1-4760-8292-907437a1cb4b")
 	)
 	(polyline
 		(pts
@@ -1415,16 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 135.89) (xy 77.47 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49804a64-99e7-4446-aeb6-10043c36331d")
-	)
-	(wire
-		(pts
 			(xy 77.47 52.07) (xy 95.25 52.07)
 		)
 		(stroke
@@ -1435,23 +1395,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 115.57) (xy 81.28 115.57)
+			(xy 81.28 138.43) (xy 81.28 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d05ce8d-90e2-4d4e-b5ec-2038ce74daf4")
-	)
-	(wire
-		(pts
-			(xy 167.64 31.75) (xy 186.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed8c5be-e9ab-44b5-8332-e83fedc94821")
+		(uuid "4e937f4f-8ce2-4625-b951-630f7a685254")
 	)
 	(wire
 		(pts
@@ -1465,23 +1415,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 31.75) (xy 198.12 31.75)
+			(xy 198.12 54.61) (xy 212.09 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58febee7-94e2-4eae-9a89-4e4aa5771efc")
-	)
-	(wire
-		(pts
-			(xy 180.34 44.45) (xy 186.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5cbe63-b61b-446e-a5eb-5b548eb50942")
+		(uuid "5ccaf90f-4ad5-426e-ad60-b81b87520de1")
 	)
 	(wire
 		(pts
@@ -1495,26 +1435,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 58.42) (xy 186.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "609e0154-a79f-4c38-9acf-c332b3f8ea06")
-	)
-	(wire
-		(pts
-			(xy 73.66 130.81) (xy 95.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619af279-e6d1-40d2-83f3-de2b009b76e8")
-	)
-	(wire
-		(pts
 			(xy 73.66 46.99) (xy 95.25 46.99)
 		)
 		(stroke
@@ -1525,13 +1445,43 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 119.38) (xy 81.28 115.57)
+			(xy 186.69 58.42) (xy 186.69 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67e23a8e-fe5d-431a-81cf-11fcfce187a2")
+		(uuid "64e21dac-a7a3-4977-a9fe-0a3ab7c8ad1a")
+	)
+	(wire
+		(pts
+			(xy 194.31 31.75) (xy 198.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655376e4-c819-46c8-8faf-9fd4697c430d")
+	)
+	(wire
+		(pts
+			(xy 63.5 138.43) (xy 81.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8d45dd-3f4e-4803-be43-28bca65df4c3")
+	)
+	(wire
+		(pts
+			(xy 69.85 147.32) (xy 73.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3a090a-e99a-472d-9ea9-7b1343505285")
 	)
 	(wire
 		(pts
@@ -1545,23 +1495,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 124.46) (xy 81.28 138.43)
+			(xy 73.66 124.46) (xy 73.66 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fe28e30-0a21-4c8c-9584-24e353feb7de")
+		(uuid "70620dd7-ba22-417c-bbf1-1741b4f0a06f")
 	)
 	(wire
 		(pts
-			(xy 180.34 54.61) (xy 198.12 54.61)
+			(xy 198.12 35.56) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "714ae050-a332-4f1c-b969-0faebef9cb2a")
+		(uuid "75c9bf38-554d-454c-a7d6-768e59ffb5a7")
 	)
 	(wire
 		(pts
@@ -1572,6 +1522,16 @@
 			(type default)
 		)
 		(uuid "768ced0c-0242-4c97-9ab7-35e8887b513f")
+	)
+	(wire
+		(pts
+			(xy 81.28 124.46) (xy 81.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a0cbde-def1-4987-a0c5-edfabfcd716d")
 	)
 	(wire
 		(pts
@@ -1595,6 +1555,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 147.32) (xy 77.47 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aafdd16-96e1-4b3c-beb9-576ea49cadc7")
+	)
+	(wire
+		(pts
+			(xy 63.5 130.81) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abc9885-2f6d-411e-94ba-2410a4b40221")
+	)
+	(wire
+		(pts
 			(xy 203.2 35.56) (xy 203.2 31.75)
 		)
 		(stroke
@@ -1602,6 +1582,16 @@
 			(type default)
 		)
 		(uuid "7f0690ac-57d5-4b33-9d28-73120a31cfac")
+	)
+	(wire
+		(pts
+			(xy 50.8 115.57) (xy 69.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3bbf55-b2b7-42af-8c80-e8859b15f727")
 	)
 	(wire
 		(pts
@@ -1615,23 +1605,43 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 35.56) (xy 190.5 31.75)
+			(xy 69.85 142.24) (xy 69.85 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88b8c32a-fdde-44c8-8592-c464957e4bd5")
+		(uuid "81cc5a2e-4ff3-4785-89e8-b9f27731b612")
 	)
 	(wire
 		(pts
-			(xy 77.47 135.89) (xy 95.25 135.89)
+			(xy 86.36 115.57) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c7f571c-527a-4279-bbe0-adfc5b225bf9")
+		(uuid "8416e565-6b0d-406d-b05c-01d037141f1b")
+	)
+	(wire
+		(pts
+			(xy 69.85 115.57) (xy 73.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891f5e6b-194c-48bb-a77f-410330ac843a")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905ed765-0f5c-4bf5-a0c5-626b7d83847e")
 	)
 	(polyline
 		(pts
@@ -1685,23 +1695,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 128.27) (xy 95.25 128.27)
+			(xy 198.12 40.64) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "961149cd-bfa3-42da-98ce-146d8145130c")
+		(uuid "969b2446-deae-4df1-afc3-e541836baf62")
 	)
 	(wire
 		(pts
-			(xy 194.31 52.07) (xy 194.31 58.42)
+			(xy 180.34 54.61) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a22d518-d8dc-4c58-b28d-92fc32405ae7")
+		(uuid "987ed474-40e4-435b-bdaf-9d20e3e3629e")
 	)
 	(wire
 		(pts
@@ -1715,23 +1725,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 124.46) (xy 77.47 135.89)
+			(xy 77.47 147.32) (xy 81.28 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a9862fc-bba6-4fcf-8606-a090d28b0ce8")
-	)
-	(wire
-		(pts
-			(xy 77.47 135.89) (xy 77.47 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba949be-fc5f-4443-8aba-8b06b509f284")
+		(uuid "9f192634-b4bc-4715-bafd-cd3dca0ab362")
 	)
 	(wire
 		(pts
@@ -1745,53 +1745,33 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 31.75) (xy 190.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a225f885-34a1-4880-8e5c-9352c49eb903")
-	)
-	(wire
-		(pts
-			(xy 69.85 142.24) (xy 69.85 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f49a30-86d1-4ae8-aacc-2ba6053ae661")
-	)
-	(wire
-		(pts
-			(xy 50.8 115.57) (xy 69.85 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5248bde-ce0d-4d27-bff5-14bbcdc34ae5")
-	)
-	(wire
-		(pts
 			(xy 180.34 52.07) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aac118af-684e-4ff7-938e-d3f4944c5651")
+		(uuid "a30d0b2e-59d4-4a4f-bbbf-c5f12bd75f2d")
 	)
 	(wire
 		(pts
-			(xy 194.31 31.75) (xy 198.12 31.75)
+			(xy 198.12 54.61) (xy 198.12 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab30d988-60e0-4f15-8aac-11b8b61f1870")
+		(uuid "a6b681f5-94fc-421a-bb9b-b0dfd5fe51c8")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abae74ed-59ea-42e0-8309-c21b8d974eef")
 	)
 	(polyline
 		(pts
@@ -1805,33 +1785,53 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 73.66 130.81)
+			(xy 81.28 138.43) (xy 95.25 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad7b4243-899f-461f-932e-c034f133a450")
+		(uuid "abf24557-9695-40c5-b6f8-b4c8ff4f7989")
 	)
 	(wire
 		(pts
-			(xy 63.5 128.27) (xy 69.85 128.27)
+			(xy 73.66 130.81) (xy 95.25 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae3c501b-87e7-453b-9bcb-9172b8e11939")
+		(uuid "ae6465a6-3137-4897-8e48-3fef34a2122d")
 	)
 	(wire
 		(pts
-			(xy 186.69 31.75) (xy 186.69 35.56)
+			(xy 194.31 40.64) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aefe8f07-452b-4334-a943-4603746152d3")
+		(uuid "af449214-e51c-4065-9e98-b31b59abed89")
+	)
+	(wire
+		(pts
+			(xy 63.5 135.89) (xy 77.47 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44c1795-ccf7-4e3f-835d-567e299072c3")
+	)
+	(wire
+		(pts
+			(xy 194.31 52.07) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbc996b-e018-4172-ba19-4aa242054311")
 	)
 	(wire
 		(pts
@@ -1845,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 115.57) (xy 77.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5323af-2daa-461b-ad76-49d5e55ca9ff")
+	)
+	(wire
+		(pts
 			(xy 69.85 40.64) (xy 69.85 44.45)
 		)
 		(stroke
@@ -1855,13 +1865,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 40.64) (xy 198.12 54.61)
+			(xy 186.69 40.64) (xy 186.69 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf24c904-2515-42e4-99dd-c0b9335b24e2")
+		(uuid "be0e6620-2c5b-4a61-9496-90d3527626a9")
 	)
 	(wire
 		(pts
@@ -1875,53 +1885,53 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 119.38) (xy 77.47 115.57)
+			(xy 194.31 52.07) (xy 212.09 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0fa99d7-a8ed-4a85-8752-2124ecedb136")
+		(uuid "c8665f88-c6f0-420f-b01e-458f7baecdd1")
 	)
 	(wire
 		(pts
-			(xy 73.66 119.38) (xy 73.66 115.57)
+			(xy 194.31 35.56) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c846b03a-4870-45eb-8dbb-a1d6bfa089ba")
+		(uuid "c9579801-7e08-4827-a4d4-2c785087626a")
 	)
 	(wire
 		(pts
-			(xy 186.69 44.45) (xy 212.09 44.45)
+			(xy 190.5 31.75) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cafab888-cebf-4b11-97da-3b1c2897643f")
+		(uuid "c9ad0a38-a6f2-4bf1-86d7-7d02683083aa")
 	)
 	(wire
 		(pts
-			(xy 198.12 35.56) (xy 198.12 31.75)
+			(xy 203.2 63.5) (xy 198.12 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdfd2cd8-9dc4-4a4a-8a8d-38fd736c9908")
+		(uuid "d022c0fd-523c-41af-adb3-757075939b2f")
 	)
 	(wire
 		(pts
-			(xy 81.28 138.43) (xy 81.28 142.24)
+			(xy 203.2 31.75) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0ff2382-632d-4e0c-bb7b-81c0fe7e2aa7")
+		(uuid "d2893402-7fea-409e-ad16-0cad71849baa")
 	)
 	(wire
 		(pts
@@ -1935,6 +1945,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d40126-94ad-409a-858b-5860c82c61c7")
+	)
+	(wire
+		(pts
 			(xy 203.2 40.64) (xy 203.2 63.5)
 		)
 		(stroke
@@ -1945,13 +1965,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 138.43) (xy 81.28 138.43)
+			(xy 186.69 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7d71ecd-0915-4371-90c8-682d05524bd3")
+		(uuid "d6ba1c71-552c-4292-a6e9-8b8554853af3")
 	)
 	(wire
 		(pts
@@ -1965,63 +1985,43 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 40.64) (xy 186.69 44.45)
+			(xy 180.34 44.45) (xy 186.69 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ded2c754-83ac-4b49-8ce0-3c3f1857e6d3")
+		(uuid "eb2da2b6-76da-4668-90b4-ddf4d8364a31")
 	)
 	(wire
 		(pts
-			(xy 190.5 40.64) (xy 190.5 46.99)
+			(xy 69.85 115.57) (xy 69.85 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "def7009d-db24-4f2b-8a7e-350e2c04edff")
+		(uuid "ebafba92-0677-41f7-b460-1bcb98c494ed")
 	)
 	(wire
 		(pts
-			(xy 190.5 63.5) (xy 194.31 63.5)
+			(xy 167.64 31.75) (xy 186.69 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e630bb59-e9fe-4ed3-92bd-172953736da0")
+		(uuid "ec96e913-02c9-42ab-8071-82364fc7e49a")
 	)
 	(wire
 		(pts
-			(xy 198.12 54.61) (xy 198.12 58.42)
+			(xy 77.47 124.46) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef2c7807-6a48-4536-9ea7-405774de4478")
-	)
-	(wire
-		(pts
-			(xy 86.36 115.57) (xy 81.28 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d0f6ce-ffc5-4b63-b65c-b93cb0f0bf80")
-	)
-	(wire
-		(pts
-			(xy 73.66 124.46) (xy 73.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24ef194-d62e-45cf-af8f-ca48ea5a6d3a")
+		(uuid "f1fb38ad-f4a7-4741-87d6-402c2e19cdc0")
 	)
 	(wire
 		(pts
@@ -2035,33 +2035,33 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 198.12 63.5)
+			(xy 77.47 119.38) (xy 77.47 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4f286c8-3907-4547-be23-5abf59f44614")
+		(uuid "f570cb43-be70-417f-b38f-d2d65cad7d39")
 	)
 	(wire
 		(pts
-			(xy 194.31 40.64) (xy 194.31 52.07)
+			(xy 77.47 135.89) (xy 77.47 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f631d562-2589-469c-b14c-9619232695e8")
+		(uuid "f5943f2f-6354-415f-b9eb-18055fceda6e")
 	)
 	(wire
 		(pts
-			(xy 186.69 63.5) (xy 190.5 63.5)
+			(xy 190.5 40.64) (xy 190.5 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb618c64-0c1a-4cb1-b8f6-e7fdd781835e")
+		(uuid "f717ae2b-c69e-4285-b3d9-f090dc0079ae")
 	)
 	(text "DC Motor Driver 1"
 		(exclude_from_sim no)
@@ -2126,6 +2126,28 @@
 		(uuid "0037e0fa-0058-4899-a4d9-a472e162ab32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.1618 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN"
+		(shape input)
+		(at 50.8 115.57 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2092fbbf-530a-423d-9614-0ae5b4a94b38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 109.5609 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,6 +2399,28 @@
 			)
 		)
 	)
+	(global_label "VIN"
+		(shape input)
+		(at 167.64 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "802ea60d-2085-4b0d-a636-919bd724a5a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 25.7409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DC6_2"
 		(shape input)
 		(at 95.25 138.43 0)
@@ -2588,6 +2632,28 @@
 		(uuid "bd69a74e-ff0d-46bd-a1c6-0fffb81587f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.0018 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN"
+		(shape input)
+		(at 50.8 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c19a26d5-ef38-4d79-8cfb-f16925ded804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 25.7409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "001e6ca7-38c2-4b3b-9dc7-2beca83f4163")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 46.228 46.228 0)
 			(effects
 				(font
@@ -2942,7 +3008,7 @@
 		(instances
 			(project ""
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2950,15 +3016,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 81.28 121.92 270)
+		(at 77.47 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f4065d7-7b6b-45c5-8788-e874d7ae10c6")
-		(property "Reference" "D20"
-			(at 82.042 118.618 90)
+		(uuid "0f709a15-c24d-44b8-8b8c-60de62f2a37f")
+		(property "Reference" "D15"
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,8 +3032,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 92.964 115.824 90)
+		(property "Value" "1N4007"
+			(at 77.978 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,8 +3042,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 81.28 121.92 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 77.47 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 121.92 90)
+			(at 77.47 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 81.28 121.92 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3070,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 121.92 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3079,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 121.92 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,15 +3088,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b35a364e-f54b-4ef0-8dfa-57561aecd0f3")
+			(uuid "a7876c1a-e6f3-4c93-ac4f-e0e15b49ff46")
 		)
 		(pin "1"
-			(uuid "708494d7-997c-4ba3-b76d-9b385cbf74ec")
+			(uuid "6698db12-650f-46e1-b6a2-d362b1c1d0f8")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D20")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3045,8 +3111,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "125ad3f5-8da7-4cf0-9b22-d53a6fd3e1b8")
-		(property "Reference" "D13"
-			(at 52.578 69.85 90)
+		(property "Reference" "D9"
+			(at 70.866 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,16 +3120,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 52.578 72.39 90)
+		(property "Value" "1N4007"
+			(at 67.564 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 69.85 60.96 90)
 			(effects
 				(font
@@ -3117,93 +3184,6 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 186.69 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15a6a85e-a312-499e-a2ad-84b849f4926f")
-		(property "Reference" "D9"
-			(at 169.418 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 169.418 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 186.69 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1e8ac334-3dbd-4448-b756-0c97587478b8")
-		)
-		(pin "1"
-			(uuid "9e0150d1-4e9d-40cd-8133-ea87bb658c87")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
 					(reference "D9")
 					(unit 1)
 				)
@@ -3212,15 +3192,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 73.66 144.78 270)
+		(at 81.28 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "199ac820-afe1-43c6-af27-c26059b2126f")
-		(property "Reference" "D22"
-			(at 73.66 142.748 90)
+		(uuid "17dfbf27-e465-4a2f-9e86-d7210edce9ac")
+		(property "Reference" "D8"
+			(at 82.804 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,8 +3208,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 71.882 156.21 90)
+		(property "Value" "1N4007"
+			(at 92.964 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,8 +3218,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 73.66 144.78 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 81.28 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 144.78 90)
+			(at 81.28 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3237,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 73.66 144.78 0)
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3246,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 73.66 144.78 0)
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3255,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 144.78 0)
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,15 +3264,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8914abdd-08ba-4a3c-88c2-abe0da4e94af")
+			(uuid "02ee98ee-5817-45cc-bf49-a7eb3455e71c")
 		)
 		(pin "1"
-			(uuid "a932d186-530e-40c4-ac75-5839ad66f85e")
+			(uuid "42cda285-5a71-4b12-b1be-7ba83df252a9")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D22")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3300,15 +3280,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 77.47 144.78 270)
+		(at 194.31 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "25c3a3b0-bd6b-4d16-b18c-172b8599bb41")
-		(property "Reference" "D23"
-			(at 77.47 142.748 90)
+		(uuid "1d9a671a-bc73-463b-9187-77a1716f310c")
+		(property "Reference" "D34"
+			(at 195.834 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,8 +3296,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 91.948 156.464 90)
+		(property "Value" "1N4007"
+			(at 210.058 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,8 +3306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 77.47 144.78 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 194.31 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 144.78 90)
+			(at 194.31 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3325,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 77.47 144.78 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3334,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 77.47 144.78 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3343,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 144.78 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,15 +3352,279 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc3735cd-fbd5-4bac-b56d-551ff5c92f57")
+			(uuid "418855a3-6843-4427-b4d3-1056cda2902b")
 		)
 		(pin "1"
-			(uuid "5c195609-1654-4f06-aa61-c8c9d183d0a5")
+			(uuid "97c560e2-5059-4572-b1a6-d1ff0dd53b56")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D23")
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 81.28 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "239297ac-7c1a-41c2-abe6-722e7b7f5c52")
+		(property "Reference" "D16"
+			(at 82.55 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 82.296 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 81.28 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f2a2181-6a33-4a6c-8fa4-043597267137")
+		)
+		(pin "1"
+			(uuid "bab86b89-5b48-4b9f-8ee4-f683f463f1f3")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 69.85 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2acc2d1c-afd1-4c76-8db9-5bb0d77dcfc7")
+		(property "Reference" "D13"
+			(at 70.866 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 67.564 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f643585e-79b3-4b32-b13c-c8c418d45b12")
+		)
+		(pin "1"
+			(uuid "602d8b74-8bea-42e3-8d0b-556e8d527fd1")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 186.69 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b9d2fc3-a396-4c4f-877a-d9ff7a11990a")
+		(property "Reference" "D32"
+			(at 187.706 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 170.688 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 186.69 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6d1d3a1-27c7-4e37-bd7b-546583a1684a")
+		)
+		(pin "1"
+			(uuid "b651f664-4b3f-4e14-b2cb-464e2cf6d1bc")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -3461,8 +3705,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3203908b-6fc5-4288-bd3f-b3d11d2277b8")
-		(property "Reference" "D5"
-			(at 53.848 24.384 90)
+		(property "Reference" "D1"
+			(at 70.866 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,16 +3714,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
+		(property "Value" "1N4007"
 			(at 53.848 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 69.85 38.1 90)
 			(effects
 				(font
@@ -3533,7 +3778,7 @@
 		(instances
 			(project ""
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3851d4cf-03cf-424c-9b36-419dca44f0be")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 163.068 46.228 0)
 			(effects
 				(font
@@ -3642,94 +3887,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 198.12 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39d6ca31-80bf-4904-94fc-a653f72538f8")
-		(property "Reference" "D4"
-			(at 209.804 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 209.804 32.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 198.12 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 198.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 198.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac7956f5-acb6-4b5a-97e1-0d618e3b16f3")
-		)
-		(pin "1"
-			(uuid "d11eb5da-ef95-439a-be70-8d0dbf225787")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3745,7 +3903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be63634-ac40-435d-abb0-d2c7229c3abf")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -3795,7 +3953,95 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR013")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 73.66 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f04b41e-f23a-41a0-9134-33619691b968")
+		(property "Reference" "D14"
+			(at 74.93 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 71.374 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 73.66 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50db3428-0463-4cb3-a7d8-d28574bc812f")
+		)
+		(pin "1"
+			(uuid "3f33cebf-8924-4646-9816-01a01485d061")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3809,9 +4055,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "449a6755-e080-4873-8511-ba54eec57a30")
-		(property "Reference" "D2"
-			(at 189.992 24.384 90)
+		(uuid "41455ef2-1a13-4dca-a46b-63b7fd56a223")
+		(property "Reference" "D33"
+			(at 191.516 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,16 +4065,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
+		(property "Value" "1N4007"
 			(at 189.992 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 38.1 90)
 			(effects
 				(font
@@ -3874,15 +4121,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fbc6f84-e1e9-467a-a6d7-7adbd5fa9d64")
+			(uuid "9ec138d2-c7a3-4c40-bd7e-1d4ec70385fa")
 		)
 		(pin "1"
-			(uuid "ddb3787d-0648-4e21-8cd8-67523079ad51")
+			(uuid "dc11a272-2892-49c7-a8d7-8f07d5cae617")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D2")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -3897,8 +4144,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46cbc821-77fe-4dfd-913e-a609bdc14650")
-		(property "Reference" "D16"
-			(at 92.456 75.184 90)
+		(property "Reference" "D12"
+			(at 82.55 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,16 +4153,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 92.456 77.724 90)
+		(property "Value" "1N4007"
+			(at 82.296 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 81.28 60.96 90)
 			(effects
 				(font
@@ -3969,7 +4217,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D16")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3984,8 +4232,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d7ab82f-5ecb-479c-9779-9c1c12af40ea")
-		(property "Reference" "D15"
-			(at 91.948 70.104 90)
+		(property "Reference" "D11"
+			(at 78.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,16 +4241,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 91.948 72.644 90)
+		(property "Value" "1N4007"
+			(at 77.978 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 77.47 60.96 90)
 			(effects
 				(font
@@ -4056,7 +4305,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4071,7 +4320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58e66d7a-39c6-4f78-ba46-d033d8f60870")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 89.154 37.084 0)
 			(effects
 				(font
@@ -4125,7 +4374,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4140,7 +4389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c902950-0559-4214-acf1-3ca3682f9d34")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 48.26 157.48 0)
 			(effects
 				(font
@@ -4190,7 +4439,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4205,8 +4454,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "692dfbdf-39a8-4de1-a26c-2506b074e353")
-		(property "Reference" "D7"
-			(at 93.218 24.638 90)
+		(property "Reference" "D3"
+			(at 78.994 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,16 +4463,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
+		(property "Value" "1N4007"
 			(at 93.218 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 77.47 38.1 90)
 			(effects
 				(font
@@ -4277,7 +4527,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4285,15 +4535,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 198.12 60.96 270)
+		(at 73.66 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75d7476f-6bf5-4115-8a68-1ca5b997d249")
-		(property "Reference" "D12"
-			(at 209.296 75.184 90)
+		(uuid "6c9c69a6-47ea-41f5-a539-46a28da0ad4c")
+		(property "Reference" "D6"
+			(at 74.676 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,17 +4551,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 209.296 77.724 90)
+		(property "Value" "1N4007"
+			(at 73.152 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 198.12 60.96 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 73.66 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 60.96 90)
+			(at 73.66 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4580,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 198.12 60.96 0)
+			(at 73.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4589,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 198.12 60.96 0)
+			(at 73.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4598,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 60.96 0)
+			(at 73.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,15 +4607,103 @@
 			)
 		)
 		(pin "2"
-			(uuid "60e259fe-f6e4-4913-ac73-e77c22354d84")
+			(uuid "73a884be-15b6-4ee6-b5bf-e837932bebb8")
 		)
 		(pin "1"
-			(uuid "29ff5bf0-a728-47ec-b73e-43bd8de7f579")
+			(uuid "37d54ab0-46e1-46f9-84bd-70ebd2896958")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D12")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 69.85 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cccac81-32bd-4d71-b1dd-56a80a7f9b3e")
+		(property "Reference" "D5"
+			(at 70.866 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 53.848 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93455232-4e33-4da0-9867-4aad97bdf085")
+		)
+		(pin "1"
+			(uuid "9eacdb15-7499-4c6e-a1b2-3a4552e820fb")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4380,7 +4719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b82f815-815d-463b-b7eb-0fcb56dc2926")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 86.36 153.67 0)
 			(effects
 				(font
@@ -4430,181 +4769,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 190.5 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80e3e4d6-8a5c-4cf4-8913-8b08433a1cf4")
-		(property "Reference" "D10"
-			(at 188.722 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 188.722 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 190.5 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b118bf76-e3f4-41fa-8499-2ac2d26f81cc")
-		)
-		(pin "1"
-			(uuid "20aa5eb3-4961-45ed-8bdb-ca137958e346")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 186.69 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e4ea421-44e1-43cf-bc29-3cd2a2e76be0")
-		(property "Reference" "D1"
-			(at 170.688 24.384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 170.688 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 186.69 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 186.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 186.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa73cc71-7df8-4998-85e3-2b9ac92806ce")
-		)
-		(pin "1"
-			(uuid "1c15fc20-0814-42b7-89aa-02b4d64a4d52")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D1")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4721,6 +4886,94 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
+		(at 190.5 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a769465-2a3e-4755-b7c7-734f36072090")
+		(property "Reference" "D37"
+			(at 191.77 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 188.214 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 190.5 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f904d44c-46bc-4226-9815-f284cb82ccd0")
+		)
+		(pin "1"
+			(uuid "be5dda61-5e72-4f32-91eb-d586f4c76e82")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
 		(at 81.28 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4728,8 +4981,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cf1d28e-1dc3-47c6-9ab3-318b59af833f")
-		(property "Reference" "D8"
-			(at 92.964 29.464 90)
+		(property "Reference" "D4"
+			(at 82.804 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,16 +4990,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
+		(property "Value" "1N4007"
 			(at 92.964 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 81.28 38.1 90)
 			(effects
 				(font
@@ -4800,7 +5054,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4808,15 +5062,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 77.47 121.92 270)
+		(at 186.69 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aae1c8dd-c491-4c98-91b6-4e30358d368c")
-		(property "Reference" "D19"
-			(at 77.47 118.872 90)
+		(uuid "aa1533fa-16dc-496a-af92-e3bac8fb6118")
+		(property "Reference" "D36"
+			(at 187.706 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,8 +5078,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 93.218 110.998 90)
+		(property "Value" "1N4007"
+			(at 184.404 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,8 +5088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 77.47 121.92 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 186.69 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +5098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 121.92 90)
+			(at 186.69 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5107,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 77.47 121.92 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +5116,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 77.47 121.92 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +5125,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 121.92 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,15 +5134,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1d77188-cc29-4ac0-85e5-ff3c38654c0d")
+			(uuid "2d5e4304-8ba7-43f5-9771-d289eae85b8e")
 		)
 		(pin "1"
-			(uuid "f53851ed-2b42-4fea-b9d4-6a1e69bfe36c")
+			(uuid "aa68b3f6-a367-4458-9904-91cdb63ed163")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D19")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -4903,8 +5157,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b19be44d-2288-4eee-a1d6-ee8d6c762c95")
-		(property "Reference" "D6"
-			(at 73.152 24.384 90)
+		(property "Reference" "D2"
+			(at 74.676 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,16 +5166,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
+		(property "Value" "1N4007"
 			(at 73.152 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 73.66 38.1 90)
 			(effects
 				(font
@@ -4975,95 +5230,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 81.28 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5718573-7a7c-440a-84a3-178f8667f975")
-		(property "Reference" "D24"
-			(at 81.788 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 92.456 161.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 81.28 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 81.28 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 81.28 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ee75473-dc19-4096-a5ec-62c52209c5f8")
-		)
-		(pin "1"
-			(uuid "e95f30da-8c71-4b5e-958f-194e303bc418")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D24")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba0d0119-7dc4-41a7-842d-04ec2a5657ab")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 205.994 37.084 0)
 			(effects
 				(font
@@ -5132,94 +5299,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 194.31 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "beee3a8c-8176-476e-b40c-b5d2a9d5292e")
-		(property "Reference" "D3"
-			(at 210.058 24.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 210.058 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 194.31 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 194.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 194.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a35099c-2561-4647-ab81-d86b2517fbcd")
-		)
-		(pin "1"
-			(uuid "d9614c5c-efa3-4999-8228-c2ccb59d6ba2")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D3")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5234,7 +5314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf60666c-58c4-4e44-98bb-aed6de9a05ca")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 48.26 73.66 0)
 			(effects
 				(font
@@ -5284,7 +5364,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5292,15 +5372,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 73.66 121.92 270)
+		(at 198.12 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0ee9383-26cb-4a2b-ac36-258d97e6d7c8")
-		(property "Reference" "D18"
-			(at 73.66 118.872 90)
+		(uuid "cfe362ff-1849-44d4-9366-c701787cda36")
+		(property "Reference" "D35"
+			(at 199.644 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,8 +5388,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 73.152 110.744 90)
+		(property "Value" "1N4007"
+			(at 209.804 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,8 +5398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 73.66 121.92 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 198.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 121.92 90)
+			(at 198.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5417,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 73.66 121.92 0)
+			(at 198.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5426,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 73.66 121.92 0)
+			(at 198.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5435,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 121.92 0)
+			(at 198.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,190 +5444,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b1af42a0-73e8-45e6-82b8-e0c33549eb24")
+			(uuid "dd306213-7e10-4047-9a86-2b5cf9e263a2")
 		)
 		(pin "1"
-			(uuid "9d20f24f-e246-47c9-9e1f-f21f2847acc4")
+			(uuid "3a29ae7d-0e40-4a52-8210-811a249f9dcb")
 		)
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 194.31 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4068a99-68c2-4e21-b2f3-ff129b16f047")
-		(property "Reference" "D11"
-			(at 208.788 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 208.788 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 194.31 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 194.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 194.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "201cb5a2-8c12-46ba-b8d4-9d700210a918")
-		)
-		(pin "1"
-			(uuid "1fe4bd66-0368-46cf-8c4a-4a5fa50ba1c5")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 69.85 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c94eb0e6-7d93-455c-99c5-44f6fe4f5843")
-		(property "Reference" "D17"
-			(at 69.85 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 53.848 110.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 69.85 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3b7d640-7c54-4a39-bc3e-bf169bb32268")
-		)
-		(pin "1"
-			(uuid "aa22bce5-a74e-4cc3-b4e9-ff2474cd7927")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D17")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -5620,6 +5525,182 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
+		(at 77.47 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d65d279e-e9bc-4925-9d5d-e48165e7d58e")
+		(property "Reference" "D7"
+			(at 78.994 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 93.218 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 77.47 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 77.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 77.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1528a91d-72fc-4667-8738-a47b277227a4")
+		)
+		(pin "1"
+			(uuid "a15e9863-d6b4-47ad-b8cd-635bd0323c99")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 198.12 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db17754d-e265-48c6-8656-7a719e095662")
+		(property "Reference" "D39"
+			(at 199.39 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 199.136 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 198.12 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc525305-76ba-4073-9646-87f83fa6750a")
+		)
+		(pin "1"
+			(uuid "33af744b-10e7-4b3a-b1e1-dff330d01d79")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
 		(at 73.66 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5627,8 +5708,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c0b036-4909-4a75-a28d-2543b13ef823")
-		(property "Reference" "D14"
-			(at 71.882 69.85 90)
+		(property "Reference" "D10"
+			(at 74.93 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,16 +5717,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 71.882 72.39 90)
+		(property "Value" "1N4007"
+			(at 71.374 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 73.66 60.96 90)
 			(effects
 				(font
@@ -5699,95 +5781,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 69.85 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e43135ff-134d-4680-be62-1b812ae18cdd")
-		(property "Reference" "D21"
-			(at 69.596 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34-DO214AB-HT"
-			(at 52.578 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 69.85 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68e2234c-0f8e-403a-b654-42245908f67c")
-		)
-		(pin "1"
-			(uuid "db241557-0037-4ada-9370-90ef0791d6ca")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
-					(reference "D21")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5820,7 +5814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 86.36 121.92 0)
 			(effects
 				(font
@@ -5857,6 +5851,94 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 194.31 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc6b79e-08e5-457f-b535-dd5fd3ab13ac")
+		(property "Reference" "D38"
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 194.818 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 194.31 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c36b5334-14ee-4fc9-92e3-e9fef1a9c755")
+		)
+		(pin "1"
+			(uuid "7fde673a-f749-4acb-9b72-9ac71a397d31")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/78fca708-b9a6-4133-b2da-ae3eb95ca516"
+					(reference "D38")
 					(unit 1)
 				)
 			)

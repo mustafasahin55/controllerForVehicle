@@ -34,6 +34,17 @@
 		)
 		(uuid "96f46b68-32ea-422e-8766-3475f0a0fab4")
 	)
+	(text "1. katman sinyal\n2. gnd\n3. power\n4. sinyal"
+		(exclude_from_sim no)
+		(at 147.574 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e16e8c47-7c5b-463c-b806-f3c20a781e6c")
+	)
 	(sheet
 		(at 13.97 46.99)
 		(size 27.94 27.94)

@@ -2593,16 +2593,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 33.02) (xy 219.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4267c2c-d5c1-4803-b1ca-36ec26be2d1f")
-	)
-	(wire
-		(pts
 			(xy 160.02 43.18) (xy 160.02 44.45)
 		)
 		(stroke
@@ -2835,28 +2825,6 @@
 			)
 		)
 	)
-	(global_label "IO15"
-		(shape input)
-		(at 127 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "068838cf-3a24-4f1d-917e-04a855dd5fa6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6605 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape input)
 		(at 97.79 72.39 0)
@@ -3013,7 +2981,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 219.71 30.48 0)
+		(at 214.63 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3023,7 +2991,7 @@
 		)
 		(uuid "467c4a14-cbc5-42c6-bcf3-8faaf8eca836")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.1423 30.48 0)
+			(at 221.0623 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3135,7 @@
 	)
 	(global_label "RXD"
 		(shape input)
-		(at 219.71 33.02 0)
+		(at 214.63 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3177,7 +3145,7 @@
 		)
 		(uuid "81527a9d-fc4e-4e19-86ae-9b2968391348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4447 33.02 0)
+			(at 221.3647 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,28 +3168,6 @@
 		(uuid "8a06ca49-0e25-4277-84d2-c0b59bb8ace9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.0623 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RTS"
-		(shape input)
-		(at 132.08 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8dee303c-7909-4b7c-87af-bbaa1794ffa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.5123 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,28 +3212,6 @@
 		(uuid "9afb818d-0166-4b82-8165-f17f52da88c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.27 18.9072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CTS"
-		(shape input)
-		(at 132.08 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c54c8cb-4d22-4b0d-92c3-0066ed814e60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.5123 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,28 +3322,6 @@
 		(uuid "bdd5bdb1-9469-49cc-8722-acbed58d7b38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.34 31.8928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO13"
-		(shape input)
-		(at 127 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5ce4704-c429-40ea-aadc-d487831dbb86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6605 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,74 +3750,6 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 129.54 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ee95399-12e9-4f6a-8a93-beb3a50a8a72")
-		(property "Reference" "R17"
-			(at 129.54 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R (NC)"
-			(at 129.54 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a54f35d-42a0-452b-97b7-974e0f4eff02")
-		)
-		(pin "2"
-			(uuid "f35f7cab-9389-4716-88c6-ea2f2e03ba47")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4867,74 +4701,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 217.17 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84df35df-5463-4f18-a69e-1cc27e4b7b78")
-		(property "Reference" "R10"
-			(at 217.17 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 217.17 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 217.17 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 217.17 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d215b6c7-97f8-4e09-9c89-e6a31484d368")
-		)
-		(pin "2"
-			(uuid "0d357ff0-3034-43c4-a72d-d8961987646e")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 123.19 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5333,73 +5099,6 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 129.54 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9536c17e-a38e-4ef1-a520-3705bff7eff3")
-		(property "Reference" "R18"
-			(at 129.54 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R(NC)"
-			(at 129.54 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d8626d6-919e-4168-9a24-1d9737f27fd5")
-		)
-		(pin "2"
-			(uuid "d3ca5e40-b12a-4f7f-9e94-cbbf67642ef6")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/0ded9e45-71e1-4118-a2b1-0d1586a9cfb7"
-					(reference "R18")
 					(unit 1)
 				)
 			)

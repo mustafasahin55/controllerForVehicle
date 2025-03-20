@@ -1238,16 +1238,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 74.93 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "077e87a8-5fa3-4376-ba92-4d5536a4f549")
-	)
-	(wire
-		(pts
 			(xy 113.03 48.26) (xy 113.03 58.42)
 		)
 		(stroke
@@ -1255,16 +1245,6 @@
 			(type default)
 		)
 		(uuid "07b7bcc6-0e83-4379-868e-438ec0584a61")
-	)
-	(wire
-		(pts
-			(xy 80.01 68.58) (xy 83.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a8d8222-ffaa-4890-9d3a-11d5e7774dca")
 	)
 	(wire
 		(pts
@@ -1328,16 +1308,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 71.12 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b64737-ee7e-44ef-9ecb-e9755151eb73")
-	)
-	(wire
-		(pts
 			(xy 157.48 38.1) (xy 157.48 48.26)
 		)
 		(stroke
@@ -1368,16 +1338,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 71.12) (xy 74.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f26696-17f1-455e-a511-16e1dbeaf295")
-	)
-	(wire
-		(pts
 			(xy 113.03 68.58) (xy 113.03 78.74)
 		)
 		(stroke
@@ -1405,16 +1365,6 @@
 			(type default)
 		)
 		(uuid "3ee6145c-627c-4f5f-b441-b0caca576562")
-	)
-	(wire
-		(pts
-			(xy 71.12 68.58) (xy 71.12 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "451ab852-98f3-4ce3-9dc3-c4345f0cd452")
 	)
 	(wire
 		(pts
@@ -1458,16 +1408,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 66.04) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68535535-4b30-4650-be73-4dcd51d72afc")
-	)
-	(wire
-		(pts
 			(xy 157.48 48.26) (xy 157.48 58.42)
 		)
 		(stroke
@@ -1475,26 +1415,6 @@
 			(type default)
 		)
 		(uuid "6c5ab576-39fc-4fd5-8066-24564ed47c8a")
-	)
-	(wire
-		(pts
-			(xy 80.01 76.2) (xy 83.82 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c5adc70-1142-452f-ad8b-7c682bd71f74")
-	)
-	(wire
-		(pts
-			(xy 71.12 71.12) (xy 71.12 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717200a5-0871-490a-a87b-196f292f4888")
 	)
 	(wire
 		(pts
@@ -1508,16 +1428,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 74.93 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77c21c26-a7b1-44e2-89ab-8e0fd0487f3c")
-	)
-	(wire
-		(pts
 			(xy 30.48 26.67) (xy 30.48 27.94)
 		)
 		(stroke
@@ -1525,16 +1435,6 @@
 			(type default)
 		)
 		(uuid "87fc1f51-3130-4156-94f3-933a64b5978e")
-	)
-	(wire
-		(pts
-			(xy 71.12 63.5) (xy 71.12 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a28649d-5d83-4f0d-949a-53f2bf2610ca")
 	)
 	(wire
 		(pts
@@ -1608,16 +1508,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 71.12) (xy 83.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad5377c-8451-4bea-b46b-3b1a0cbef420")
-	)
-	(wire
-		(pts
 			(xy 113.03 58.42) (xy 113.03 68.58)
 		)
 		(stroke
@@ -1638,16 +1528,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 71.12 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24596be-f0bf-4a7c-bc31-0f19642505ea")
-	)
-	(wire
-		(pts
 			(xy 25.4 39.37) (xy 27.94 39.37)
 		)
 		(stroke
@@ -1658,16 +1538,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 74.93 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40b6d8f-9d7e-45d3-bfdf-04bd61a69efe")
-	)
-	(wire
-		(pts
 			(xy 27.94 39.37) (xy 35.56 39.37)
 		)
 		(stroke
@@ -1675,16 +1545,6 @@
 			(type default)
 		)
 		(uuid "c43fbf14-486f-42ce-b60e-fec4942dd0a2")
-	)
-	(wire
-		(pts
-			(xy 71.12 66.04) (xy 71.12 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf23bc40-c485-444f-bbaf-91d6f954aaae")
 	)
 	(wire
 		(pts
@@ -1718,36 +1578,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e0f9ad-15c1-41ba-84ba-c6863e7ddd4e")
-	)
-	(wire
-		(pts
-			(xy 71.12 66.04) (xy 74.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6bacc21-c6b9-4752-be66-1ce9c377c481")
-	)
-	(wire
-		(pts
-			(xy 80.01 63.5) (xy 83.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e378c4-3a37-4993-8b43-d51b58d0d33d")
-	)
-	(wire
-		(pts
 			(xy 30.48 33.02) (xy 30.48 36.83)
 		)
 		(stroke
@@ -1755,16 +1585,6 @@
 			(type default)
 		)
 		(uuid "fb480daa-6ea4-4d53-877c-1926bfd7139f")
-	)
-	(wire
-		(pts
-			(xy 71.12 73.66) (xy 74.93 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb24a94-5c3e-4cef-b145-e9732eef61f9")
 	)
 	(text "Servo Controller Address Selection"
 		(exclude_from_sim no)
@@ -1920,7 +1740,7 @@
 	)
 	(global_label "DCEn2"
 		(shape input)
-		(at 83.82 73.66 0)
+		(at 71.12 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1930,7 +1750,7 @@
 		)
 		(uuid "4635a8a3-6996-45b3-a269-dd1b829498bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8527 73.66 0)
+			(at 80.1527 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +1872,7 @@
 	)
 	(global_label "DCEn1"
 		(shape input)
-		(at 83.82 76.2 0)
+		(at 71.12 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2062,7 +1882,7 @@
 		)
 		(uuid "56b7c016-da23-4c71-bd3e-37c3cbede13f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8527 76.2 0)
+			(at 80.1527 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2004,7 @@
 	)
 	(global_label "DCEn4"
 		(shape input)
-		(at 83.82 68.58 0)
+		(at 71.12 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2194,7 +2014,7 @@
 		)
 		(uuid "73a04298-48b6-4264-863e-ec1a23a99a94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8527 68.58 0)
+			(at 80.1527 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2114,7 @@
 	)
 	(global_label "DCEn5"
 		(shape input)
-		(at 83.82 66.04 0)
+		(at 71.12 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2304,7 +2124,7 @@
 		)
 		(uuid "a3e5ad24-1178-43f9-be7c-321d65eae221")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8527 66.04 0)
+			(at 80.1527 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2180,7 @@
 	)
 	(global_label "DCEn3"
 		(shape input)
-		(at 83.82 71.12 0)
+		(at 71.12 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2370,7 +2190,7 @@
 		)
 		(uuid "b26d5574-dc5d-4506-a6df-1a5fb50d3a20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8527 71.12 0)
+			(at 80.1527 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2246,7 @@
 	)
 	(global_label "DCEn6"
 		(shape input)
-		(at 83.82 63.5 0)
+		(at 71.12 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2436,7 +2256,7 @@
 		)
 		(uuid "f83fed16-a764-4134-925b-d18ed958da0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8527 63.5 0)
+			(at 80.1527 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,73 +2714,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 77.47 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23bca60a-0057-4f10-910a-31da905cb64f")
-		(property "Reference" "R62"
-			(at 73.66 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 81.534 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4fa5cf0-c8a4-4160-8793-9cc99e00c2a1")
-		)
-		(pin "2"
-			(uuid "40fedd0c-32f8-4da6-92ff-cac36e2f04f3")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 30.48 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3024,140 +2777,6 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3586b088-8b9c-4e61-a224-1b4efadf4781")
-		(property "Reference" "R64"
-			(at 73.66 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 81.534 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf2f5838-284b-45e5-95bc-b01b7c0295c8")
-		)
-		(pin "2"
-			(uuid "5f075518-cdfa-4e55-a2cb-5dcef483bbb3")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
-					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e69440d-f3fc-47a2-9a81-a3259f4ec4dd")
-		(property "Reference" "R59"
-			(at 73.66 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 81.534 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b3a36aa-3db1-416e-a995-e10e4ab904f6")
-		)
-		(pin "2"
-			(uuid "b32a660f-c75c-49dc-9244-b11692cd426a")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
-					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3636,73 +3255,6 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "751e28d9-22d0-4d69-b4e1-0fbf59856364")
-		(property "Reference" "R60"
-			(at 73.66 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 81.534 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d39bf8d-c72b-4742-8c02-cd6208604797")
-		)
-		(pin "2"
-			(uuid "71848c28-2084-4180-b872-634e05b060ad")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
-					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -4255,140 +3807,6 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6629638-d509-4ba8-ad1d-922b0e642c9c")
-		(property "Reference" "R58"
-			(at 73.66 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 81.534 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "271333c1-162d-4dc8-b31e-10bdd8927724")
-		)
-		(pin "2"
-			(uuid "68cc9afc-8dae-45fd-b614-2e60018d8352")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff9da56e-9431-42e6-86a9-794064354cc1")
-		(property "Reference" "R63"
-			(at 73.66 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 81.534 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6e7c298-2781-458f-a6ca-11d4c6d093f2")
-		)
-		(pin "2"
-			(uuid "a40b1543-79ee-48ea-a66d-9049106ca80c")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3804d0ff-5708-40cf-ad06-da415e1ba4d8"
-					(reference "R63")
 					(unit 1)
 				)
 			)

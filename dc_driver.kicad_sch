@@ -1417,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.0327 41.91) (xy 33.02 41.91)
+			(xy 30.48 41.91) (xy 33.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.2709 52.07) (xy 33.02 52.07)
+			(xy 31.75 52.07) (xy 33.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 52.07) (xy 26.1909 52.07)
+			(xy 24.13 52.07) (xy 26.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 41.91) (xy 25.9527 41.91)
+			(xy 24.13 41.91) (xy 25.4 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4624,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 28.7309 52.07 270)
+		(at 29.21 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4632,7 +4632,7 @@
 		(dnp no)
 		(uuid "5c171b5b-5b70-490c-86b8-b3506b3d186d")
 		(property "Reference" "R17"
-			(at 25.654 54.356 90)
+			(at 26.1331 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 32.258 54.356 90)
+			(at 32.7371 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4648,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 28.7309 52.07 0)
+			(at 29.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 28.7309 52.07 0)
+			(at 29.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4666,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 28.7309 52.07 0)
+			(at 29.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 28.4927 41.91 270)
+		(at 27.94 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5823,7 +5823,7 @@
 		(dnp no)
 		(uuid "b2a70747-175d-4b47-9540-14e44b57af47")
 		(property "Reference" "R10"
-			(at 24.638 43.942 90)
+			(at 24.0853 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5831,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 32.004 43.942 90)
+			(at 31.4513 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5839,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 28.4927 41.91 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 28.4927 41.91 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5857,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 28.4927 41.91 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

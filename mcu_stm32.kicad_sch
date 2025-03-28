@@ -4505,7 +4505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "598ab779-6bc8-4c5b-8481-a81ea6ea6f97")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 40.64 105.41 0)
 			(effects
 				(font
@@ -4555,7 +4555,7 @@
 		(instances
 			(project ""
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4645,7 +4645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a9f9ce-2d9a-4bb7-ac22-7a42cc779790")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4711,7 +4711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "793b3c92-65dd-4743-ac13-a3d691f2554d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 116.84 64.77 0)
 			(effects
 				(font
@@ -4761,7 +4761,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9682abd2-8818-488c-a0b3-73162bf15dfa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -5045,7 +5045,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0921594-48c8-4c47-8be9-ae92a2aafd56")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 119.38 52.0635 0)
 			(effects
 				(font
@@ -5115,7 +5115,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5200,7 +5200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcc27dea-7acf-44ec-a8d6-a256fd296fe2")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 165.608 82.55 0)
 			(effects
 				(font
@@ -5254,7 +5254,7 @@
 		(instances
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)

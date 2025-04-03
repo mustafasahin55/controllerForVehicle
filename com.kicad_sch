@@ -130,16 +130,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 21.59) (xy 31.75 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c4525a-a94f-448d-a82d-59d8565c7721")
-	)
-	(wire
-		(pts
 			(xy 25.4 35.56) (xy 29.21 35.56)
 		)
 		(stroke
@@ -157,26 +147,6 @@
 			(type default)
 		)
 		(uuid "53e5f15c-1498-4fed-b3b6-97355ea944ab")
-	)
-	(wire
-		(pts
-			(xy 36.83 21.59) (xy 40.64 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c061d1-c471-41a4-a1a0-fcb999d262f7")
-	)
-	(wire
-		(pts
-			(xy 36.83 24.13) (xy 40.64 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4b7cd8-6a02-4049-a2c7-569f0e07ab1a")
 	)
 	(wire
 		(pts
@@ -207,16 +177,6 @@
 			(type default)
 		)
 		(uuid "b5d36161-2687-40d3-9f15-d65f27dea974")
-	)
-	(wire
-		(pts
-			(xy 27.94 24.13) (xy 31.75 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae5144b-4b5f-4f1e-8547-70aa57a3fbab")
 	)
 	(wire
 		(pts
@@ -268,16 +228,6 @@
 		)
 		(uuid "5d7fca12-8f4d-4c1b-94fb-751dc4e6a8a4")
 	)
-	(text "STM32 ESP32 Comm"
-		(exclude_from_sim no)
-		(at 24.892 16.256 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1179810-8e0a-41b9-bf17-183c771068d0")
-	)
 	(global_label "PCA_SDA"
 		(shape input)
 		(at 25.4 38.1 180)
@@ -296,28 +246,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TXD1"
-		(shape input)
-		(at 40.64 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19d46dde-3950-4606-87d2-d34eed7c6c9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2818 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -362,50 +290,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART1_TX"
-		(shape input)
-		(at 27.94 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7cc9c43c-3422-48ab-a5c3-f4424ba138a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.7344 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART1_RX"
-		(shape input)
-		(at 27.94 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82cae23c-a55c-46c8-a724-d794076543d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.432 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -520,95 +404,6 @@
 			)
 		)
 	)
-	(global_label "RXD1"
-		(shape input)
-		(at 40.64 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f844c40b-7dc3-42ec-88e6-9eaad3c0e04c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5842 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 34.29 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a2e9b7a-a556-477d-b37a-e16805242e47")
-		(property "Reference" "R19"
-			(at 30.48 20.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 38.354 20.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 34.29 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 34.29 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9944e836-2ca4-4d7e-b9c8-627ba89e7b01")
-		)
-		(pin "2"
-			(uuid "4f8772b7-aac4-46b5-b306-f1b625d31a76")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 31.75 35.56 270)
@@ -671,73 +466,6 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 34.29 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91ed89f9-129b-4c03-9237-ecc41579a968")
-		(property "Reference" "R20"
-			(at 30.48 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 38.354 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 34.29 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 34.29 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce44d32f-d375-4605-86c1-bee941511044")
-		)
-		(pin "2"
-			(uuid "690bac14-6004-415a-a36d-60fb60a18371")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
-					(reference "R20")
 					(unit 1)
 				)
 			)

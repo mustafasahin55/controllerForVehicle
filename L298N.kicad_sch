@@ -1434,6 +1434,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 88.9 67.31 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1445,6 +1446,7 @@
 	(hierarchical_label "DCIn2_1"
 		(shape input)
 		(at 54.61 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1456,6 +1458,7 @@
 	(hierarchical_label "OUT1_2"
 		(shape input)
 		(at 135.89 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,6 +1470,7 @@
 	(hierarchical_label "VSS"
 		(shape input)
 		(at 88.9 31.75 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1478,6 +1482,7 @@
 	(hierarchical_label "DCIn1_2"
 		(shape input)
 		(at 54.61 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1489,6 +1494,7 @@
 	(hierarchical_label "DCIn2_2"
 		(shape input)
 		(at 54.61 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1500,6 +1506,7 @@
 	(hierarchical_label "OUT2_1"
 		(shape input)
 		(at 135.89 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1511,6 +1518,7 @@
 	(hierarchical_label "OUT2_2"
 		(shape input)
 		(at 135.89 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,6 +1530,7 @@
 	(hierarchical_label "OUT1_1"
 		(shape input)
 		(at 135.89 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1533,6 +1542,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 91.44 31.75 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1544,6 +1554,7 @@
 	(hierarchical_label "DCEN1"
 		(shape input)
 		(at 54.61 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1555,6 +1566,7 @@
 	(hierarchical_label "DCIn1_1"
 		(shape input)
 		(at 54.61 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1566,6 +1578,7 @@
 	(hierarchical_label "DCEN2"
 		(shape input)
 		(at 54.61 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

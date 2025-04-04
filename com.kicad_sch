@@ -4,210 +4,7 @@
 	(generator_version "8.0")
 	(uuid "e4612dca-c15f-434c-a31b-fe6d85a9151a")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 25.4 35.56) (xy 29.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491adc0b-41e1-4951-9cb1-166c62a1b8a9")
-	)
-	(wire
-		(pts
-			(xy 25.4 49.53) (xy 30.48 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e5f15c-1498-4fed-b3b6-97355ea944ab")
-	)
-	(wire
-		(pts
-			(xy 25.4 52.07) (xy 30.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0803e4f-bfb3-4f90-98e2-fe5a2a4733ce")
-	)
-	(wire
-		(pts
-			(xy 35.56 49.53) (xy 40.64 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5402f2a-2706-4644-9384-ec7adb479fde")
-	)
-	(wire
-		(pts
-			(xy 35.56 52.07) (xy 40.64 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d36161-2687-40d3-9f15-d65f27dea974")
-	)
-	(wire
-		(pts
-			(xy 34.29 35.56) (xy 40.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df63af11-3c1d-4bcb-84b3-0e9daf720082")
-	)
-	(wire
-		(pts
-			(xy 25.4 38.1) (xy 29.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f854d15e-6785-420c-a5cb-f410b3da2107")
-	)
-	(wire
-		(pts
-			(xy 34.29 38.1) (xy 40.64 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe03be1d-e91f-45ee-a9f5-4f7937d725e1")
-	)
+	(lib_symbols)
 	(text "STM32 MPU Comm"
 		(exclude_from_sim no)
 		(at 24.13 44.958 0)
@@ -274,7 +71,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 40.64 35.56 0)
+		(at 25.4 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -284,7 +81,7 @@
 		)
 		(uuid "3da41dc6-1d2a-42a4-9bdb-1b23c1692bbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.3942 35.56 0)
+			(at 37.1542 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +93,7 @@
 	)
 	(global_label "I2C2_SDA"
 		(shape input)
-		(at 40.64 49.53 0)
+		(at 25.4 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -306,7 +103,7 @@
 		)
 		(uuid "a29dd8d6-778f-4d2e-95b6-2a7611f904cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4547 49.53 0)
+			(at 37.2147 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +115,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 40.64 38.1 0)
+		(at 25.4 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -328,7 +125,7 @@
 		)
 		(uuid "d4f35286-70b0-48de-8f56-9026249f34d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4547 38.1 0)
+			(at 37.2147 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +159,7 @@
 	)
 	(global_label "I2C2_SCL"
 		(shape input)
-		(at 40.64 52.07 0)
+		(at 25.4 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -372,7 +169,7 @@
 		)
 		(uuid "e8e2835c-6089-4dd9-9eca-6af5d8c23c93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.3942 52.07 0)
+			(at 37.1542 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,274 +198,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 31.75 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31c3cd9d-9810-46f7-876b-05b16897045a")
-		(property "Reference" "R21"
-			(at 27.94 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 37.592 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 31.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 31.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06a67b5c-18a0-4712-8adb-4e211c66ae31")
-		)
-		(pin "2"
-			(uuid "59375086-1480-45a1-ba0f-14a1222d6958")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 33.02 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3a9e266-ac75-4ffa-9b1c-74dc301de565")
-		(property "Reference" "R24"
-			(at 28.448 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 37.084 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 33.02 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 33.02 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9cffedf-bdfc-4495-8aeb-e2a9384efbd3")
-		)
-		(pin "2"
-			(uuid "71b1c8aa-66c3-4c55-9ea8-1184c6d830f2")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 31.75 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4a7e909-eeb3-4d5b-9cec-9c537a3c3676")
-		(property "Reference" "R22"
-			(at 27.94 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 37.592 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 31.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 31.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47225984-57bb-4b01-896a-21d8d3ff0276")
-		)
-		(pin "2"
-			(uuid "36d8efd7-cc50-4926-a986-0efc25487377")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 33.02 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c73250d4-17e6-419f-8d99-870bd00d52fa")
-		(property "Reference" "R23"
-			(at 28.448 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 37.084 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 33.02 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 33.02 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd840da8-f5e1-4e55-a1d4-87c1384576f5")
-		)
-		(pin "2"
-			(uuid "59230e50-15a1-4d12-8930-2c62298a42e7")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/fc85c3d3-062f-408a-ac80-59caebdc7296"
-					(reference "R23")
-					(unit 1)
-				)
 			)
 		)
 	)

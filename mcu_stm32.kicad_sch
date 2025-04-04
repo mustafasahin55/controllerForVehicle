@@ -2374,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 58.42 40.64)
+			(xy 58.42 40.64) (xy 83.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2421,6 +2421,16 @@
 			(type default)
 		)
 		(uuid "a2cbdeb8-fbda-42f6-ba81-a3ece65a0c09")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 78.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a817fb46-01a6-4ea3-9d81-54ca49cb50ab")
 	)
 	(polyline
 		(pts
@@ -2474,6 +2484,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 35.56) (xy 58.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5501662-7d2b-4c18-9096-f446044b2553")
+	)
+	(wire
+		(pts
 			(xy 147.32 80.01) (xy 158.75 80.01)
 		)
 		(stroke
@@ -2491,16 +2511,6 @@
 			(type default)
 		)
 		(uuid "f7cc5a6b-8dba-4585-83f2-56c9a06d8cc1")
-	)
-	(wire
-		(pts
-			(xy 83.82 40.64) (xy 78.74 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84ce4d7-c798-4b2d-8838-336589c20b9e")
 	)
 	(wire
 		(pts
@@ -2772,7 +2782,7 @@
 	)
 	(global_label "SPI1_CS"
 		(shape input)
-		(at 58.42 35.56 0)
+		(at 85.09 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2782,7 +2792,7 @@
 		)
 		(uuid "46c3778e-9567-4a95-a665-61a9c3352dfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1461 35.56 0)
+			(at 95.8161 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,73 +3570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 76.2 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39ca3ab5-5159-4136-9e07-a0f0d30b4f03")
-		(property "Reference" "R3"
-			(at 70.866 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R"
-			(at 81.026 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0d4100a-36a7-49b0-861d-a80ea3117c9a")
-		)
-		(pin "2"
-			(uuid "e0acfc99-c4ad-4d9e-9f69-09edca687b5a")
-		)
-		(instances
-			(project "controllerForVehicle"
-				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 27.94 270)
 		(unit 1)
@@ -4303,6 +4246,73 @@
 			(project "controllerForVehicle"
 				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "987f1492-7641-4050-898f-e709ba0d7c62")
+		(property "Reference" "R9"
+			(at 78.994 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 72.898 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4665cc2c-b27e-49c9-8237-320d2bc4c541")
+		)
+		(pin "2"
+			(uuid "c3368536-54e5-468b-8207-2fd6b2635b28")
+		)
+		(instances
+			(project "controllerForVehicle"
+				(path "/f177fb06-71dc-4865-9331-a828b12c2bf7/3df2cc68-9e37-4ed2-a8f2-6c459eac7ab6"
+					(reference "R9")
 					(unit 1)
 				)
 			)
